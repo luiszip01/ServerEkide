@@ -1,9 +1,9 @@
-[00:12:01.674][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
-[00:12:01.690][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[00:12:01.749][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[00:12:01.750][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[00:12:01.761][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[00:12:03.568][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[00:12:03.569][INFO][CraftTweaker]: - 'aquaculture' at version '2.5.1'
-[00:12:03.571][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
-[00:12:03.572][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
+[02:37:47.846][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[02:37:47.869][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[02:37:47.941][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[02:37:47.941][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[02:37:47.944][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[02:37:49.642][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[02:37:49.651][INFO][CraftTweaker]: - 'aquaculture' at version '2.5.1'
+[02:37:49.652][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.40'
+[02:37:49.652][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
