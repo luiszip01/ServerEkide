@@ -3,7 +3,7 @@
 	#
 	# When loading files from datapacks, set this to true to log missing registry data for things like items.
 	# Default: false
-	log_missing_registry_data_for_datapacks = false
+	log_missing_registry_data_for_datapacks = true
 	#
 	# When true, generated world regions, 1024 blocks wide, will be saved as a file to make generating chunks faster in already visited areas. If file size is a concern or issues arise, this may be disabled.
 	# Default: true
