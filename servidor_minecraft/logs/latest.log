@@ -1,2 +1,1006 @@
-[18Dec2024 22:51:53.291] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.21, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[18Dec2024 22:51:53.295] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[20Dec2024 00:11:06.097] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.21, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[20Dec2024 00:11:06.112] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[20Dec2024 00:11:08.676] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Dec2024 00:11:08.747] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/ServerEkide/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Dec2024 00:11:10.606] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.21/fmlcore-1.20.1-47.2.21.jar is missing mods.toml file
+[20Dec2024 00:11:10.608] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.21/javafmllanguage-1.20.1-47.2.21.jar is missing mods.toml file
+[20Dec2024 00:11:10.609] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.21/lowcodelanguage-1.20.1-47.2.21.jar is missing mods.toml file
+[20Dec2024 00:11:10.610] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.21/mclanguage-1.20.1-47.2.21.jar is missing mods.toml file
+[20Dec2024 00:11:12.165] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[20Dec2024 00:11:12.172] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/ServerEkide/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.4.jar
+[20Dec2024 00:11:12.173] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
+[20Dec2024 00:11:27.328] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Dec2024 00:11:27.605] [main/ERROR] [mixin/]: Mixin config celestisynth.mixins.json does not specify "minVersion" property
+[20Dec2024 00:11:28.268] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[20Dec2024 00:11:28.543] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
+[20Dec2024 00:11:28.555] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
+[20Dec2024 00:11:29.050] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[20Dec2024 00:11:29.053] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.main.MixinConnector]
+[20Dec2024 00:11:29.055] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[20Dec2024 00:11:29.262] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.16.1+mc1.20.1: 78 options available, 0 override(s) found
+[20Dec2024 00:11:29.264] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[20Dec2024 00:11:29.309] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[20Dec2024 00:11:29.450] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 282 options available, 3 override(s) found
+[20Dec2024 00:11:29.477] [main/WARN] [mixin/]: Reference map 'fightnbtintegration.refmap.json' for fishingoverhaul.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:29.482] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:29.492] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-forge-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:29.622] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:29.893] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[20Dec2024 00:11:29.922] [main/WARN] [mixin/]: Reference map 'wits-common-refmap.json' for wits-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:30.002] [main/INFO] [Puzzles Lib/]: All mods {/workspaces/ServerEkide/servidor_minecraft/mods/notenoughanimations-forge-1.7.3-mc1.20.1.jar#489!/=fuzs.puzzleslib.impl.core.ForgeModContainer@fd14789, /workspaces/ServerEkide/servidor_minecraft/mods/ItemPhysic_FORGE_v1.7.1_mc1.20.1.jar#450!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f64d943, /workspaces/ServerEkide/servidor_minecraft/mods/Stellarity-v2-0e.jar#527!/=fuzs.puzzleslib.impl.core.ForgeModContainer@105ffc58, /workspaces/ServerEkide/servidor_minecraft/mods/biomemusic-1.20.1-2.3.jar#361!/=fuzs.puzzleslib.impl.core.ForgeModContainer@68454ed5, /workspaces/ServerEkide/servidor_minecraft/mods/SnowRealMagic-1.20.1-forge-10.4.0.jar#522!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d2db15b, /workspaces/ServerEkide/servidor_minecraft/mods/bagus_lib-1.20.1-4.6.0.jar#349!/=fuzs.puzzleslib.impl.core.ForgeModContainer@749ad37c, /workspaces/ServerEkide/servidor_minecraft/mods/gnumus_settlement_[Forge]1.20.1_v1.0.jar#427!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b485c8b, /workspaces/ServerEkide/servidor_minecraft/mods/Library_of_Exile-1.20.1-1.4.3.jar#465!/=fuzs.puzzleslib.impl.core.ForgeModContainer@59b98ad1, /workspaces/ServerEkide/servidor_minecraft/mods/justzoom_forge_1.0.2_MC_1.20.1.jar#455!/=fuzs.puzzleslib.impl.core.ForgeModContainer@591e5fd4, /workspaces/ServerEkide/servidor_minecraft/mods/player_companions_1.20.1-6.11.0.jar#498!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7bbd76b8, /workspaces/ServerEkide/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#389!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2248d140, /workspaces/ServerEkide/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#391!/=fuzs.puzzleslib.impl.core.ForgeModContainer@37b238da, /workspaces/ServerEkide/servidor_minecraft/mods/cleanswing-1.20-1.5.jar#383!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c792107, /workspaces/ServerEkide/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.4.jar#426!/=fuzs.puzzleslib.impl.core.ForgeModContainer@ce19c86, /workspaces/ServerEkide/servidor_minecraft/mods/Fallingleaves-1.20.1-2.1.0.jar#417!/=fuzs.puzzleslib.impl.core.ForgeModContainer@68479e8b, /workspaces/ServerEkide/servidor_minecraft/mods/healingcampfire-1.20.1-5.3.jar#435!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e951fb1, /workspaces/ServerEkide/servidor_minecraft/mods/astikorcarts-redux-1.20.1-1.1.7.jar#343!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b317e7d, /workspaces/ServerEkide/servidor_minecraft/mods/NotableBubbleText-1.20.1-1.0.5.jar#488!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1bb4c431, /workspaces/ServerEkide/servidor_minecraft/mods/stalwart-dungeons-1.20.1-1.2.8.jar#525!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4fd3b20a, /workspaces/ServerEkide/servidor_minecraft/mods/Ping-Wheel-1.8.0-forge-1.20.1.jar#496!/=fuzs.puzzleslib.impl.core.ForgeModContainer@295d54d6, /workspaces/ServerEkide/servidor_minecraft/mods/justleveling-forge-1.20.x-v1.7.jar#454!/=fuzs.puzzleslib.impl.core.ForgeModContainer@398f0516, /workspaces/ServerEkide/servidor_minecraft/mods/valhelsia_furniture-forge-1.20.1-1.1.2.jar#549!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4a7db5a, /workspaces/ServerEkide/servidor_minecraft/mods/BetterTotemOfUndying-Forge-1.20.1-1.2.0.jar#359!/=fuzs.puzzleslib.impl.core.ForgeModContainer@56b66a26, /workspaces/ServerEkide/servidor_minecraft/mods/ars_nouveau-1.20.1-4.11.0-all.jar#342!/=fuzs.puzzleslib.impl.core.ForgeModContainer@158e6fc2, /workspaces/ServerEkide/servidor_minecraft/mods/tidal.jar#541!/=fuzs.puzzleslib.impl.core.ForgeModContainer@54687fd0, /workspaces/ServerEkide/servidor_minecraft/mods/fishingoverhaul-1.20.1-1.0.0.jar#421!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6eaf030c, /workspaces/ServerEkide/servidor_minecraft/mods/bettercombat-forge-1.8.5+1.20.1.jar#357!/=fuzs.puzzleslib.impl.core.ForgeModContainer@b2da3a5, /workspaces/ServerEkide/servidor_minecraft/mods/TaxWardenLegend+M.1.20.1+ForM.1.0.3.jar#534!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6dbb3d7d, /workspaces/ServerEkide/servidor_minecraft/mods/azurelib-neo-1.20.1-2.0.222.jar#346!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a3a49e5, /workspaces/ServerEkide/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#401!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c1b82cd, /workspaces/ServerEkide/servidor_minecraft/mods/TravelersTitles-1.20-Forge-4.0.2.jar#545!/=fuzs.puzzleslib.impl.core.ForgeModContainer@acd3460, /workspaces/ServerEkide/servidor_minecraft/mods/EpicFight-20.7.4.jar#410!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ea9a091, /workspaces/ServerEkide/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#432!/=fuzs.puzzleslib.impl.core.ForgeModContainer@16f4a3c0, /workspaces/ServerEkide/servidor_minecraft/mods/valhelsia_structures-forge-1.20.1-1.1.1.jar#550!/=fuzs.puzzleslib.impl.core.ForgeModContainer@26495639, /workspaces/ServerEkide/servidor_minecraft/mods/CerbonsApi-Forge-1.20.1-1.0.0.jar#378!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45c408a4, /workspaces/ServerEkide/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#395!/=fuzs.puzzleslib.impl.core.ForgeModContainer@369a95a5, /workspaces/ServerEkide/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2145-universal.jar#546!/=fuzs.puzzleslib.impl.core.ForgeModContainer@543da15, /workspaces/ServerEkide/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#459!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69d7bc1a, /workspaces/ServerEkide/servidor_minecraft/mods/canary-mc1.20.1-0.3.3.jar#376!/=fuzs.puzzleslib.impl.core.ForgeModContainer@cb318ac, /workspaces/ServerEkide/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#385!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6e668322, /workspaces/ServerEkide/servidor_minecraft/mods/BetterAdvancements-1.20.1-0.3.2.162.jar#355!/=fuzs.puzzleslib.impl.core.ForgeModContainer@75ee6f89, /workspaces/ServerEkide/servidor_minecraft/mods/breezy-1.20.1-1.1.1.jar#370!/=fuzs.puzzleslib.impl.core.ForgeModContainer@210d3a42, /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar#560!/=fuzs.puzzleslib.impl.core.ForgeModContainer@356f20b7, /workspaces/ServerEkide/servidor_minecraft/mods/irons_spellbooks-1.20.1-3.1.7.1.jar#448!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6f4adaab, /workspaces/ServerEkide/servidor_minecraft/mods/radiantgear-forge-2.1.5+1.20.1.jar#504!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69de72ec, /workspaces/ServerEkide/servidor_minecraft/mods/the-orcs-1.0-FORGE-1.20.x.jar#539!/=fuzs.puzzleslib.impl.core.ForgeModContainer@21c99abf, /workspaces/ServerEkide/servidor_minecraft/mods/HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7.jar#437!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d6f6ca9, /workspaces/ServerEkide/servidor_minecraft/mods/lootr-forge-1.20-0.7.34.85.jar#468!/=fuzs.puzzleslib.impl.core.ForgeModContainer@54496c2d, /workspaces/ServerEkide/servidor_minecraft/mods/Mini-boss Boss Bars.jar#475!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e1a3d5a, /workspaces/ServerEkide/servidor_minecraft/mods/amendments-1.20-1.1.18.jar#338!/=fuzs.puzzleslib.impl.core.ForgeModContainer@236b4a44, /workspaces/ServerEkide/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar#374!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35f760a4, /workspaces/ServerEkide/servidor_minecraft/mods/Kambrik-6.1.1+1.20.1-forge.jar#456!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ac05a33, /workspaces/ServerEkide/servidor_minecraft/mods/BadMobs-1.20.1-19.0.2.jar#348!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35af52dc, /workspaces/ServerEkide/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar#366!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4cef0747, /workspaces/ServerEkide/servidor_minecraft/mods/wits-1.1.0+1.20.1-forge.jar#557!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4213bc3e, /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar#562!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6aaa678d, /workspaces/ServerEkide/servidor_minecraft/mods/obscure_api-15.jar#490!/=fuzs.puzzleslib.impl.core.ForgeModContainer@25dcf1b6, /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_pots_and_mimics_1.0.2_forge_1.20.1.jar#508!/=fuzs.puzzleslib.impl.core.ForgeModContainer@113d0f75, /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_seadwellers_2.9.9_forge_1.20.1.jar#509!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e10a320, /workspaces/ServerEkide/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#425!/=fuzs.puzzleslib.impl.core.ForgeModContainer@773f3360, /workspaces/ServerEkide/servidor_minecraft/mods/entity_texture_features_forge_1.20.1-6.0.1.jar#409!/=fuzs.puzzleslib.impl.core.ForgeModContainer@352c3d70, /workspaces/ServerEkide/servidor_minecraft/mods/swem-1.20.1-1.4.0.jar#532!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4c13ca07, /workspaces/ServerEkide/servidor_minecraft/mods/TaxVillageArchitect+M.1.20.1+ForM.1.1.1.jar#533!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7d17906, /workspaces/ServerEkide/servidor_minecraft/mods/supplementaries-1.20-2.8.11.jar#531_/META-INF/jars/mixinsquared-forge-0.1.1.jar#628!/=fuzs.puzzleslib.impl.core.ForgeModContainer@97beeaf, /workspaces/ServerEkide/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#500!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d68954d, /workspaces/ServerEkide/servidor_minecraft/mods/Chunky-1.3.146.jar#381!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f793f15, /workspaces/ServerEkide/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#420!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ec7eb5, /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#567!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5534e6f1, /workspaces/ServerEkide/servidor_minecraft/mods/Kobolds-2.10.14.jar#458!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4c6fc3e7, /workspaces/ServerEkide/servidor_minecraft/mods/explorify-v1.3.0-mc1.20.jar#414!/=fuzs.puzzleslib.impl.core.ForgeModContainer@aa8dce8, /workspaces/ServerEkide/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.4.jar#453!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6ad112de, /workspaces/ServerEkide/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#513!/=fuzs.puzzleslib.impl.core.ForgeModContainer@18a0721b, /workspaces/ServerEkide/servidor_minecraft/mods/goblins_tyranny-1.0.3.jar#428!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ae2fa13, /workspaces/ServerEkide/servidor_minecraft/mods/ChatImpressiveAnimation-forge-1.0+mc1.20.x.jar#379!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66e12c3b, /workspaces/ServerEkide/servidor_minecraft/mods/collective-1.20.1-7.61.jar#387!/=fuzs.puzzleslib.impl.core.ForgeModContainer@44485db, /workspaces/ServerEkide/servidor_minecraft/mods/betterarcheology-1.1.7-1.20.1.jar#356!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1f6f0fe2, /workspaces/ServerEkide/servidor_minecraft/mods/mysticaloaktree-1.20-1.11.jar#484!/=fuzs.puzzleslib.impl.core.ForgeModContainer@22604c7e, /workspaces/ServerEkide/servidor_minecraft/mods/nocube's_villagers_sell_animals_1.2.1_forge_1.20.1.jar#487!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4d8f2cfd, /workspaces/ServerEkide/servidor_minecraft/mods/curios-forge-5.8.0+1.20.1.jar#396!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d4502ca, /workspaces/ServerEkide/servidor_minecraft/mods/Towns-and-Towers-1.12-Fabric+Forge.jar#543!/=fuzs.puzzleslib.impl.core.ForgeModContainer@ab2009f, /workspaces/ServerEkide/servidor_minecraft/mods/BagusMob-1.20.1-4.0.1.jar#350!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2a11ae0b, /workspaces/ServerEkide/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#502!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e4d8770, /workspaces/ServerEkide/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#524!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5b5b9521, /workspaces/ServerEkide/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#558!/=fuzs.puzzleslib.impl.core.ForgeModContainer@41f7c02d, /workspaces/ServerEkide/servidor_minecraft/mods/serverconfigupdater-4.0.2.jar#517!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66314fee, /workspaces/ServerEkide/servidor_minecraft/mods/chococraft-1.20.1-forge-0.9.11.jar#380!/=fuzs.puzzleslib.impl.core.ForgeModContainer@14b5325f, /workspaces/ServerEkide/servidor_minecraft/mods/Prism-1.20.1-forge-1.0.5.jar#501!/=fuzs.puzzleslib.impl.core.ForgeModContainer@13404f75, /workspaces/ServerEkide/servidor_minecraft/mods/betterfpsdist-1.20.1-4.3.jar#358!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6cc90398, /workspaces/ServerEkide/servidor_minecraft/mods/AttributeFix-Forge-1.20.1-21.0.4.jar#345!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6b6fd0, /workspaces/ServerEkide/servidor_minecraft/mods/valhelsia_core-forge-1.20.1-1.1.1.jar#548!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3d718248, /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#561!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2cdb5974, /workspaces/ServerEkide/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#556!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8aa5ab4, /workspaces/ServerEkide/servidor_minecraft/mods/tectonic-forge-1.19.3-2.3.2.jar#535!/=fuzs.puzzleslib.impl.core.ForgeModContainer@53e4a19e, /workspaces/ServerEkide/servidor_minecraft/mods/LeavesBeGone-v8.0.0-1.20.1-Forge.jar#463!/=fuzs.puzzleslib.impl.core.ForgeModContainer@62360a68, /workspaces/ServerEkide/servidor_minecraft/mods/illager_additions-1.20.1-0.0.5-alpha.jar#442!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1450ffa3, /workspaces/ServerEkide/servidor_minecraft/mods/entity_model_features_forge_1.20.1-2.0.2.jar#408!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e756867, /workspaces/ServerEkide/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.592.jar#362!/=fuzs.puzzleslib.impl.core.ForgeModContainer@38ebc866, /workspaces/ServerEkide/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#429!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6adcf059, /workspaces/ServerEkide/servidor_minecraft/mods/clickadv-1.20.1-3.8.jar#384!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7962a746, /workspaces/ServerEkide/servidor_minecraft/mods/immersive_melodies-0.2.0+1.20.1-forge.jar#445!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c31de5d, /workspaces/ServerEkide/servidor_minecraft/mods/Zeta-1.0-16.jar#565!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a7f9d45, /workspaces/ServerEkide/servidor_minecraft/mods/alexsmobs-1.22.8.jar#337!/=fuzs.puzzleslib.impl.core.ForgeModContainer@772cf46b, /workspaces/ServerEkide/servidor_minecraft/mods/damageindicator-1.0.0-1.20.1.jar#397!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b98355f, /workspaces/ServerEkide/servidor_minecraft/mods/Kiwi-1.20.1-forge-11.6.2.jar#457!/=fuzs.puzzleslib.impl.core.ForgeModContainer@949d347, /workspaces/ServerEkide/servidor_minecraft/mods/Controlling-forge-1.20.1-12.0.2.jar#388!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f5ae29e, /workspaces/ServerEkide/servidor_minecraft/mods/followersteleporttoo-1.20.1-2.4.jar#422!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1fc5c0b2, /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar#507!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45ad3cd8, /workspaces/ServerEkide/servidor_minecraft/mods/weaponmaster-1.4.2-1.20.1.jar#555!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2b90cc1, /workspaces/ServerEkide/servidor_minecraft/mods/simplywalk-0.4.3.jar#518!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5a2f401a, /workspaces/ServerEkide/servidor_minecraft/mods/celestisynth-1.20.1-1.2.2.jar#377!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6bdedbbd, /workspaces/ServerEkide/servidor_minecraft/mods/make_bubbles_pop-0.2.0-forge-mc1.19.4+.jar#470!/=fuzs.puzzleslib.impl.core.ForgeModContainer@47b961e2, /workspaces/ServerEkide/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#391_/META-INF/jarjar/flywheel-forge-1.20.1-0.6.10-7.jar#636!/=fuzs.puzzleslib.impl.core.ForgeModContainer@d2cb2d0, /workspaces/ServerEkide/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar#482!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2d230cff, /workspaces/ServerEkide/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar#483!/=fuzs.puzzleslib.impl.core.ForgeModContainer@30bd39d5, /workspaces/ServerEkide/servidor_minecraft/mods/gpumemleakfix-1.20.1-1.8.jar#431!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3c87e851, /workspaces/ServerEkide/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar#485!/=fuzs.puzzleslib.impl.core.ForgeModContainer@54556723, /workspaces/ServerEkide/servidor_minecraft/mods/PickUpNotifier-v8.0.0-1.20.1-Forge.jar#495!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6124dda2, /workspaces/ServerEkide/servidor_minecraft/mods/structure_gel-1.20.1-2.16.2.jar#530!/=fuzs.puzzleslib.impl.core.ForgeModContainer@380e33c2, /workspaces/ServerEkide/servidor_minecraft/mods/ad_astra-forge-1.20.1-1.15.5.jar#334!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3bc891f2, /workspaces/ServerEkide/servidor_minecraft/mods/Beggars-1.0.0-1.20.1-forge.jar#354!/=fuzs.puzzleslib.impl.core.ForgeModContainer@445b85d7, /workspaces/ServerEkide/servidor_minecraft/mods/starlight-1.1.2+forge.1cda73c.jar#526!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3d59933, /workspaces/ServerEkide/servidor_minecraft/mods/wardrobe-1.0.3-1.20.1.jar#553!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4a0c3aa8, /workspaces/ServerEkide/servidor_minecraft/mods/eeeabsmobs-1.20.1-0.8.jar#404!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3534651a, /workspaces/ServerEkide/servidor_minecraft/mods/v2.0.1 - 1.20.1 - Forge.jar#547!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2d593b56, /workspaces/ServerEkide/servidor_minecraft/mods/Aquaculture-1.20.1-2.5.1.jar#339!/=fuzs.puzzleslib.impl.core.ForgeModContainer@26a33cf, /workspaces/ServerEkide/servidor_minecraft/mods/lucent-1.20.1-1.5.5.jar#469!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29188050, /workspaces/ServerEkide/servidor_minecraft/mods/Trajectory Preview-6.0.3-1.20.1.jar#544!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f122cdc, /workspaces/ServerEkide/servidor_minecraft/mods/kotlinforforge-4.10.0-all.jar#460_/META-INF/jarjar/kffmod-4.10.0.jar#638!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5bf523e3, /workspaces/ServerEkide/servidor_minecraft/mods/dragonmounts-1.20.1-1.2.3-beta.jar#399!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8d29719, /workspaces/ServerEkide/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#418!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65259c53, /workspaces/ServerEkide/servidor_minecraft/mods/ExplorersCompass-1.20.1-1.3.3-forge.jar#413!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4bff28e7, /workspaces/ServerEkide/servidor_minecraft/mods/guardvillagers-1.20.1-1.6.5.jar#433!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39e7e040, /workspaces/ServerEkide/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#502_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#630!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2591d23a, /workspaces/ServerEkide/servidor_minecraft/mods/integrated_api-1.5.0+1.20.1-forge.jar#447!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c1f15df, /workspaces/ServerEkide/servidor_minecraft/mods/Forge 1.20.1 Minecraft Middle Ages 0.0.5.jar#423!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5e95b0ab, /workspaces/ServerEkide/servidor_minecraft/mods/extrasounds-1.20.1-forge-1.3.jar#416!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5876bed9, /workspaces/ServerEkide/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.1.11.jar#365!/=fuzs.puzzleslib.impl.core.ForgeModContainer@73ddb7ef, /workspaces/ServerEkide/servidor_minecraft/mods/burnt_basic-1.6.3_Forge_1.20.1.jar#371!/=fuzs.puzzleslib.impl.core.ForgeModContainer@67f8f5a6, /workspaces/ServerEkide/servidor_minecraft/mods/responsiveshields-2.3-mc1.18-19-20.x.jar#514!/=fuzs.puzzleslib.impl.core.ForgeModContainer@141b011a, /workspaces/ServerEkide/servidor_minecraft/mods/NaturesCompass-1.20.1-1.11.2-forge.jar#486!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7976e536, /workspaces/ServerEkide/servidor_minecraft/mods/CraftTweaker-forge-1.20.1-14.0.40.jar#390!/=fuzs.puzzleslib.impl.core.ForgeModContainer@670a4738, /workspaces/ServerEkide/servidor_minecraft/mods/modernfix-forge-5.16.1+mc1.20.1.jar#477!/=fuzs.puzzleslib.impl.core.ForgeModContainer@47ffdbba, /workspaces/ServerEkide/servidor_minecraft/mods/Searchables-forge-1.20.1-1.0.3.jar#516!/=fuzs.puzzleslib.impl.core.ForgeModContainer@ba0018e, /workspaces/ServerEkide/servidor_minecraft/mods/Boss Music Mod 1.20.1.jar#367!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45311a99, /workspaces/ServerEkide/servidor_minecraft/mods/ItemProductionLib-1.20.1-1.0.2a-all.jar#451!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7037a680, /workspaces/ServerEkide/servidor_minecraft/mods/smallships-forge-1.20.1-2.0.0-b1.2.jar#521!/=fuzs.puzzleslib.impl.core.ForgeModContainer@492c8137, /workspaces/ServerEkide/servidor_minecraft/mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar#472!/=fuzs.puzzleslib.impl.core.ForgeModContainer@420b55ed, /workspaces/ServerEkide/servidor_minecraft/mods/tmg-1.3.jar#542!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f237ae7, /workspaces/ServerEkide/servidor_minecraft/mods/ItemBorders-1.20.1-forge-1.2.1.jar#449!/=fuzs.puzzleslib.impl.core.ForgeModContainer@42edde25, /workspaces/ServerEkide/servidor_minecraft/mods/Quark-4.0-441.jar#503!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6fe5da76, /workspaces/ServerEkide/servidor_minecraft/mods/Iceberg-1.20.1-forge-1.1.21.jar#440!/=fuzs.puzzleslib.impl.core.ForgeModContainer@77d95e5a, /workspaces/ServerEkide/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar#512!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6339e604, /workspaces/ServerEkide/servidor_minecraft/mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar#403!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f8900b0, /workspaces/ServerEkide/servidor_minecraft/mods/architectury-9.2.14-forge.jar#341!/=fuzs.puzzleslib.impl.core.ForgeModContainer@e7e455d, /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.2.21/forge-1.20.1-47.2.21-universal.jar#572!/=fuzs.puzzleslib.impl.core.ForgeModContainer@33e8e146, /workspaces/ServerEkide/servidor_minecraft/mods/tetra-1.20.1-6.3.0.jar#537!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1f4d38f9, /workspaces/ServerEkide/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#500_/META-INF/jarjar/spectrelib-forge-0.13.15+1.20.1.jar#624!/=fuzs.puzzleslib.impl.core.ForgeModContainer@18463720, /workspaces/ServerEkide/servidor_minecraft/mods/Healing+Bed+1.20.1.jar#434!/=fuzs.puzzleslib.impl.core.ForgeModContainer@64eeddd8, /workspaces/ServerEkide/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#497!/=fuzs.puzzleslib.impl.core.ForgeModContainer@10f8e2d2, /workspaces/ServerEkide/servidor_minecraft/mods/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar#520!/=fuzs.puzzleslib.impl.core.ForgeModContainer@66048ac4, /workspaces/ServerEkide/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.2.jar#452!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f525e13, /workspaces/ServerEkide/servidor_minecraft/mods/VisualWorkbench-v8.0.0-1.20.1-Forge.jar#552!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d404a3c, /workspaces/ServerEkide/servidor_minecraft/mods/AdvancementPlaques-1.20.1-forge-1.5.1.jar#335!/=fuzs.puzzleslib.impl.core.ForgeModContainer@af9dd34, /workspaces/ServerEkide/servidor_minecraft/mods/Structory_Towers_1.20.4_v1.0.6.jar#529!/=fuzs.puzzleslib.impl.core.ForgeModContainer@48692405, /workspaces/ServerEkide/servidor_minecraft/mods/pamhc2foodcore-1.20.4-1.0.5.jar#492!/=fuzs.puzzleslib.impl.core.ForgeModContainer@151659dd, /workspaces/ServerEkide/servidor_minecraft/mods/Bountiful-6.0.3+1.20.1-forge.jar#369!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4a58e0e9, /workspaces/ServerEkide/servidor_minecraft/mods/embeddium-0.3.14+mc1.20.1.jar#405!/=fuzs.puzzleslib.impl.core.ForgeModContainer@e8c84eb, /workspaces/ServerEkide/servidor_minecraft/mods/Doggy Doggy-1.0.5.jar#398!/=fuzs.puzzleslib.impl.core.ForgeModContainer@f44d033, /workspaces/ServerEkide/servidor_minecraft/mods/aquamirae-6.API15.jar#340!/=fuzs.puzzleslib.impl.core.ForgeModContainer@283bb8b7, /workspaces/ServerEkide/servidor_minecraft/mods/moonlight-1.20-2.11.31-forge.jar#478!/=fuzs.puzzleslib.impl.core.ForgeModContainer@25e95af1, /workspaces/ServerEkide/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#540!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4fa8297b, /workspaces/ServerEkide/servidor_minecraft/mods/alexscaves-1.1.4.jar#336!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6644bdf5, /workspaces/ServerEkide/servidor_minecraft/mods/cristellib-1.1.5-forge.jar#394!/=fuzs.puzzleslib.impl.core.ForgeModContainer@13cf5f8a, /workspaces/ServerEkide/servidor_minecraft/mods/BeansBackpacks-forge-1.20.1-2.0.jar#352!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c9ea1d0, /workspaces/ServerEkide/servidor_minecraft/mods/beautify-2.0.2.jar#353!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72f3acc9, /workspaces/ServerEkide/servidor_minecraft/mods/waystones-forge-1.20-14.1.3.jar#554!/=fuzs.puzzleslib.impl.core.ForgeModContainer@319b1c77, /workspaces/ServerEkide/servidor_minecraft/mods/HopoBetterMineshaft-[1.20.2-1.20.4]-1.2.2b.jar#436!/=fuzs.puzzleslib.impl.core.ForgeModContainer@584136c1, /workspaces/ServerEkide/servidor_minecraft/mods/ImmediatelyFast-Forge-1.2.12+1.20.4.jar#444!/=fuzs.puzzleslib.impl.core.ForgeModContainer@51d88c38, /workspaces/ServerEkide/servidor_minecraft/mods/mowziesmobs-1.6.4.jar#480!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ea2f72e, /workspaces/ServerEkide/servidor_minecraft/mods/exposure-1.20.1-1.6.0-forge.jar#415!/=fuzs.puzzleslib.impl.core.ForgeModContainer@57b33c29, /workspaces/ServerEkide/servidor_minecraft/mods/botarium-forge-1.20.1-2.3.3.jar#368!/=fuzs.puzzleslib.impl.core.ForgeModContainer@615ef20, /workspaces/ServerEkide/servidor_minecraft/mods/creature_compendium-1.2.1.jar#393!/=fuzs.puzzleslib.impl.core.ForgeModContainer@13390a96, /workspaces/ServerEkide/servidor_minecraft/mods/incontrol-1.20-9.2.4.jar#446!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3a8b9458, /workspaces/ServerEkide/servidor_minecraft/mods/idas_forge-1.9.3+1.20.1.jar#441!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7497a554, /workspaces/ServerEkide/servidor_minecraft/mods/villagernames-1.20.1-7.3.jar#551!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5dd23809, /workspaces/ServerEkide/servidor_minecraft/mods/YungsBridges-1.20-Forge-4.0.3.jar#564!/=fuzs.puzzleslib.impl.core.ForgeModContainer@664f49f, /workspaces/ServerEkide/servidor_minecraft/mods/map_atlases-1.20-6.0.7.jar#471!/=fuzs.puzzleslib.impl.core.ForgeModContainer@60ab895f, /workspaces/ServerEkide/servidor_minecraft/mods/supplementaries-1.20-2.8.11.jar#531!/=fuzs.puzzleslib.impl.core.ForgeModContainer@295f2d1b, /workspaces/ServerEkide/servidor_minecraft/mods/memorysettings-1.20.1-5.4.jar#473!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65015a49, /workspaces/ServerEkide/servidor_minecraft/mods/moonlight-1.20-2.11.31-forge.jar#478_/META-INF/jars/mixinextras-forge-0.3.6.jar#622!/=fuzs.puzzleslib.impl.core.ForgeModContainer@44e08a7a, /workspaces/ServerEkide/servidor_minecraft/mods/blue_skies-1.20.1-1.3.31.jar#363!/=fuzs.puzzleslib.impl.core.ForgeModContainer@78bd02c8, /workspaces/ServerEkide/servidor_minecraft/mods/FpsReducer2-forge-1.20-2.5.jar#424!/=fuzs.puzzleslib.impl.core.ForgeModContainer@28dacf31, /workspaces/ServerEkide/servidor_minecraft/mods/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar#402!/=fuzs.puzzleslib.impl.core.ForgeModContainer@47e60b71, /workspaces/ServerEkide/servidor_minecraft/mods/RegionsUnexploredForge-0.5.5+1.20.1.jar#510!/=fuzs.puzzleslib.impl.core.ForgeModContainer@795faad, /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar#563!/=fuzs.puzzleslib.impl.core.ForgeModContainer@17ae13d5, /workspaces/ServerEkide/servidor_minecraft/mods/golemsarefriends-1.20.0-1.0.1.jar#430!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69f3e556, /workspaces/ServerEkide/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar#494!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1eb9d69a, /workspaces/ServerEkide/servidor_minecraft/mods/Butchersdelight Foods beta 1.20.1 1.0.3.jar#373!/=fuzs.puzzleslib.impl.core.ForgeModContainer@36511772, /workspaces/ServerEkide/servidor_minecraft/mods/MerchantMarkers-1.20.1-forge-1.3.3.jar#474!/=fuzs.puzzleslib.impl.core.ForgeModContainer@51869ad6, /workspaces/ServerEkide/servidor_minecraft/mods/mutil-1.20.1-6.1.1.jar#481!/=fuzs.puzzleslib.impl.core.ForgeModContainer@27a90ce5, /workspaces/ServerEkide/servidor_minecraft/mods/Campfire_Resting1.4.0.jar#375!/=fuzs.puzzleslib.impl.core.ForgeModContainer@77f4038c, /workspaces/ServerEkide/servidor_minecraft/mods/Clumps-forge-1.20.1-12.0.0.4.jar#386!/=fuzs.puzzleslib.impl.core.ForgeModContainer@49a06087, /workspaces/ServerEkide/servidor_minecraft/mods/L_Enders_Cataclysm-1.99.4 -1.20.1.jar#462!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c15034f, /workspaces/ServerEkide/servidor_minecraft/mods/lionfishapi-1.9.jar#466!/=fuzs.puzzleslib.impl.core.ForgeModContainer@43b4ec0c, /workspaces/ServerEkide/servidor_minecraft/mods/mobs vote 2023.jar#476!/=fuzs.puzzleslib.impl.core.ForgeModContainer@148b6f95, /workspaces/ServerEkide/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar#438!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5ee581db, /workspaces/ServerEkide/servidor_minecraft/mods/royal_variations_[Forge]_1.20.1_1.0.jar#515!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5a6efe33, /workspaces/ServerEkide/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.4.jar#536!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e5ebdfe, /workspaces/ServerEkide/servidor_minecraft/mods/lithostitched-forge-1.20.1-1.1.5.jar#467!/=fuzs.puzzleslib.impl.core.ForgeModContainer@71668a67, /workspaces/ServerEkide/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.27_mc1.20.1.jar#499!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ff26c9, /workspaces/ServerEkide/servidor_minecraft/mods/[Forge]ctov-3.4.2.jar#333!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ecdcfe3, /workspaces/ServerEkide/servidor_minecraft/mods/epicsamurai-0.0.44-1.20.1-neo.jar#411!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65b73689, /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar#506!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2047adea, /workspaces/ServerEkide/servidor_minecraft/mods/Fastload-Reforged-mc1.20.1-3.4.0.jar#419!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5af40e45, /workspaces/ServerEkide/servidor_minecraft/mods/Dungeon Crawl-1.20.1-2.3.14.jar#400!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1a06602f, /workspaces/ServerEkide/servidor_minecraft/mods/letmedespawn-forge-1.20.x-1.2.0.jar#464!/=fuzs.puzzleslib.impl.core.ForgeModContainer@46591e98, /workspaces/ServerEkide/servidor_minecraft/mods/async-locator-forge-1.20-1.3.0.jar#344!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5b6cc344, /workspaces/ServerEkide/servidor_minecraft/mods/Butchersdelight beta 1.20.1 2.1.0.jar#372!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2110684a, /workspaces/ServerEkide/servidor_minecraft/mods/bewitched_brewery-1.0.0.jar#360!/=fuzs.puzzleslib.impl.core.ForgeModContainer@83e635f, /workspaces/ServerEkide/servidor_minecraft/mods/Rats-1.20.1-8.1.2.jar#505!/=fuzs.puzzleslib.impl.core.ForgeModContainer@61d011e, /workspaces/ServerEkide/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#382!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3b56947a, /workspaces/ServerEkide/servidor_minecraft/mods/Sitting+1.0.3.jar#519!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1926f962, /workspaces/ServerEkide/servidor_minecraft/mods/balm-forge-1.20.1-7.2.2.jar#351!/=fuzs.puzzleslib.impl.core.ForgeModContainer@62794582, /workspaces/ServerEkide/servidor_minecraft/mods/oculus-mc1.20.1-1.7.0.jar#491!/=fuzs.puzzleslib.impl.core.ForgeModContainer@c82ad22, /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar#559!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f80d8c, /workspaces/ServerEkide/servidor_minecraft/mods/endermanoverhaul-forge-1.20.1-1.0.4.jar#406!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2d3b0978, /workspaces/ServerEkide/servidor_minecraft/mods/Eternal Tales [Arboterum] [v1.6.33] [Forge 1.20.1].jar#412!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5c60c08, /workspaces/ServerEkide/servidor_minecraft/mods/repurposed_structures-7.1.14+1.20.1-forge.jar#511!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1cb44a2f, /workspaces/ServerEkide/servidor_minecraft/mods/endrem_forge-5.2.3-R-1.20.X.jar#407!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5fe3b058, /workspaces/ServerEkide/servidor_minecraft/mods/Structory_1.20.2_v1.3.4.jar#528!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2a661215, /workspaces/ServerEkide/servidor_minecraft/mods/Paraglider-forge-20.1.3.jar#493!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1f75fd1d, /workspaces/ServerEkide/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#392!/=fuzs.puzzleslib.impl.core.ForgeModContainer@212e39ee, /workspaces/ServerEkide/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#523!/=fuzs.puzzleslib.impl.core.ForgeModContainer@638d2ce3, /workspaces/ServerEkide/servidor_minecraft/mods/textrues_embeddium_options-0.1.5+mc1.20.1.jar#538!/=fuzs.puzzleslib.impl.core.ForgeModContainer@79617c3d, /workspaces/ServerEkide/servidor_minecraft/mods/hourglass-1.20-1.2.1.1.jar#439!/=fuzs.puzzleslib.impl.core.ForgeModContainer@49cceb19, /workspaces/ServerEkide/servidor_minecraft/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#479!/=fuzs.puzzleslib.impl.core.ForgeModContainer@197d5a87, /workspaces/ServerEkide/servidor_minecraft/mods/illagerrevolutionmod-1.4.jar#443!/=fuzs.puzzleslib.impl.core.ForgeModContainer@131d977f}
+[20Dec2024 00:11:30.006] [main/INFO] [Puzzles Lib/]: Scheme for notenoughanimations: /workspaces/ServerEkide/servidor_minecraft/mods/notenoughanimations-forge-1.7.3-mc1.20.1.jar#489!/
+[20Dec2024 00:11:30.023] [main/INFO] [Puzzles Lib/]: Scheme for itemphysic: /workspaces/ServerEkide/servidor_minecraft/mods/ItemPhysic_FORGE_v1.7.1_mc1.20.1.jar#450!/
+[20Dec2024 00:11:30.024] [main/INFO] [Puzzles Lib/]: Scheme for mr_stellarity: /workspaces/ServerEkide/servidor_minecraft/mods/Stellarity-v2-0e.jar#527!/
+[20Dec2024 00:11:30.025] [main/INFO] [Puzzles Lib/]: Scheme for biomemusic: /workspaces/ServerEkide/servidor_minecraft/mods/biomemusic-1.20.1-2.3.jar#361!/
+[20Dec2024 00:11:30.025] [main/INFO] [Puzzles Lib/]: Scheme for snowrealmagic: /workspaces/ServerEkide/servidor_minecraft/mods/SnowRealMagic-1.20.1-forge-10.4.0.jar#522!/
+[20Dec2024 00:11:30.025] [main/INFO] [Puzzles Lib/]: Scheme for bagus_lib: /workspaces/ServerEkide/servidor_minecraft/mods/bagus_lib-1.20.1-4.6.0.jar#349!/
+[20Dec2024 00:11:30.025] [main/INFO] [Puzzles Lib/]: Scheme for gnumus: /workspaces/ServerEkide/servidor_minecraft/mods/gnumus_settlement_[Forge]1.20.1_v1.0.jar#427!/
+[20Dec2024 00:11:30.025] [main/INFO] [Puzzles Lib/]: Scheme for library_of_exile: /workspaces/ServerEkide/servidor_minecraft/mods/Library_of_Exile-1.20.1-1.4.3.jar#465!/
+[20Dec2024 00:11:30.026] [main/INFO] [Puzzles Lib/]: Scheme for justzoom: /workspaces/ServerEkide/servidor_minecraft/mods/justzoom_forge_1.0.2_MC_1.20.1.jar#455!/
+[20Dec2024 00:11:30.027] [main/INFO] [Puzzles Lib/]: Scheme for player_companions: /workspaces/ServerEkide/servidor_minecraft/mods/player_companions_1.20.1-6.11.0.jar#498!/
+[20Dec2024 00:11:30.027] [main/INFO] [Puzzles Lib/]: Scheme for coroutil: /workspaces/ServerEkide/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#389!/
+[20Dec2024 00:11:30.032] [main/INFO] [Puzzles Lib/]: Scheme for create: /workspaces/ServerEkide/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#391!/
+[20Dec2024 00:11:30.032] [main/INFO] [Puzzles Lib/]: Scheme for cleanswing: /workspaces/ServerEkide/servidor_minecraft/mods/cleanswing-1.20-1.5.jar#383!/
+[20Dec2024 00:11:30.041] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /workspaces/ServerEkide/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.4.jar#426!/
+[20Dec2024 00:11:30.041] [main/INFO] [Puzzles Lib/]: Scheme for fallingleaves: /workspaces/ServerEkide/servidor_minecraft/mods/Fallingleaves-1.20.1-2.1.0.jar#417!/
+[20Dec2024 00:11:30.041] [main/INFO] [Puzzles Lib/]: Scheme for healingcampfire: /workspaces/ServerEkide/servidor_minecraft/mods/healingcampfire-1.20.1-5.3.jar#435!/
+[20Dec2024 00:11:30.042] [main/INFO] [Puzzles Lib/]: Scheme for astikorcarts: /workspaces/ServerEkide/servidor_minecraft/mods/astikorcarts-redux-1.20.1-1.1.7.jar#343!/
+[20Dec2024 00:11:30.042] [main/INFO] [Puzzles Lib/]: Scheme for nbt: /workspaces/ServerEkide/servidor_minecraft/mods/NotableBubbleText-1.20.1-1.0.5.jar#488!/
+[20Dec2024 00:11:30.043] [main/INFO] [Puzzles Lib/]: Scheme for stalwart_dungeons: /workspaces/ServerEkide/servidor_minecraft/mods/stalwart-dungeons-1.20.1-1.2.8.jar#525!/
+[20Dec2024 00:11:30.043] [main/INFO] [Puzzles Lib/]: Scheme for pingwheel: /workspaces/ServerEkide/servidor_minecraft/mods/Ping-Wheel-1.8.0-forge-1.20.1.jar#496!/
+[20Dec2024 00:11:30.043] [main/INFO] [Puzzles Lib/]: Scheme for justleveling: /workspaces/ServerEkide/servidor_minecraft/mods/justleveling-forge-1.20.x-v1.7.jar#454!/
+[20Dec2024 00:11:30.045] [main/INFO] [Puzzles Lib/]: Scheme for valhelsia_furniture: /workspaces/ServerEkide/servidor_minecraft/mods/valhelsia_furniture-forge-1.20.1-1.1.2.jar#549!/
+[20Dec2024 00:11:30.045] [main/INFO] [Puzzles Lib/]: Scheme for better_totem_of_undying: /workspaces/ServerEkide/servidor_minecraft/mods/BetterTotemOfUndying-Forge-1.20.1-1.2.0.jar#359!/
+[20Dec2024 00:11:30.046] [main/INFO] [Puzzles Lib/]: Scheme for ars_nouveau: /workspaces/ServerEkide/servidor_minecraft/mods/ars_nouveau-1.20.1-4.11.0-all.jar#342!/
+[20Dec2024 00:11:30.047] [main/INFO] [Puzzles Lib/]: Scheme for mr_tidal_towns: /workspaces/ServerEkide/servidor_minecraft/mods/tidal.jar#541!/
+[20Dec2024 00:11:30.047] [main/INFO] [Puzzles Lib/]: Scheme for fishingoverhaul: /workspaces/ServerEkide/servidor_minecraft/mods/fishingoverhaul-1.20.1-1.0.0.jar#421!/
+[20Dec2024 00:11:30.050] [main/INFO] [Puzzles Lib/]: Scheme for bettercombat: /workspaces/ServerEkide/servidor_minecraft/mods/bettercombat-forge-1.8.5+1.20.1.jar#357!/
+[20Dec2024 00:11:30.051] [main/INFO] [Puzzles Lib/]: Scheme for taxwl: /workspaces/ServerEkide/servidor_minecraft/mods/TaxWardenLegend+M.1.20.1+ForM.1.0.3.jar#534!/
+[20Dec2024 00:11:30.052] [main/INFO] [Puzzles Lib/]: Scheme for azurelib: /workspaces/ServerEkide/servidor_minecraft/mods/azurelib-neo-1.20.1-2.0.222.jar#346!/
+[20Dec2024 00:11:30.052] [main/INFO] [Puzzles Lib/]: Scheme for dungeons_arise: /workspaces/ServerEkide/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#401!/
+[20Dec2024 00:11:30.053] [main/INFO] [Puzzles Lib/]: Scheme for travelerstitles: /workspaces/ServerEkide/servidor_minecraft/mods/TravelersTitles-1.20-Forge-4.0.2.jar#545!/
+[20Dec2024 00:11:30.053] [main/INFO] [Puzzles Lib/]: Scheme for epicfight: /workspaces/ServerEkide/servidor_minecraft/mods/EpicFight-20.7.4.jar#410!/
+[20Dec2024 00:11:30.053] [main/INFO] [Puzzles Lib/]: Scheme for gravestone: /workspaces/ServerEkide/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#432!/
+[20Dec2024 00:11:30.054] [main/INFO] [Puzzles Lib/]: Scheme for valhelsia_structures: /workspaces/ServerEkide/servidor_minecraft/mods/valhelsia_structures-forge-1.20.1-1.1.1.jar#550!/
+[20Dec2024 00:11:30.057] [main/INFO] [Puzzles Lib/]: Scheme for cerbons_api: /workspaces/ServerEkide/servidor_minecraft/mods/CerbonsApi-Forge-1.20.1-1.0.0.jar#378!/
+[20Dec2024 00:11:30.057] [main/INFO] [Puzzles Lib/]: Scheme for cupboard: /workspaces/ServerEkide/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#395!/
+[20Dec2024 00:11:30.058] [main/INFO] [Puzzles Lib/]: Scheme for twilightforest: /workspaces/ServerEkide/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2145-universal.jar#546!/
+[20Dec2024 00:11:30.058] [main/INFO] [Puzzles Lib/]: Scheme for konkrete: /workspaces/ServerEkide/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#459!/
+[20Dec2024 00:11:30.058] [main/INFO] [Puzzles Lib/]: Scheme for canary: /workspaces/ServerEkide/servidor_minecraft/mods/canary-mc1.20.1-0.3.3.jar#376!/
+[20Dec2024 00:11:30.059] [main/INFO] [Puzzles Lib/]: Scheme for cloth_config: /workspaces/ServerEkide/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#385!/
+[20Dec2024 00:11:30.059] [main/INFO] [Puzzles Lib/]: Scheme for betteradvancements: /workspaces/ServerEkide/servidor_minecraft/mods/BetterAdvancements-1.20.1-0.3.2.162.jar#355!/
+[20Dec2024 00:11:30.059] [main/INFO] [Puzzles Lib/]: Scheme for breezy: /workspaces/ServerEkide/servidor_minecraft/mods/breezy-1.20.1-1.1.1.jar#370!/
+[20Dec2024 00:11:30.060] [main/INFO] [Puzzles Lib/]: Scheme for betterjungletemples: /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar#560!/
+[20Dec2024 00:11:30.065] [main/INFO] [Puzzles Lib/]: Scheme for irons_spellbooks: /workspaces/ServerEkide/servidor_minecraft/mods/irons_spellbooks-1.20.1-3.1.7.1.jar#448!/
+[20Dec2024 00:11:30.065] [main/INFO] [Puzzles Lib/]: Scheme for radiantgear: /workspaces/ServerEkide/servidor_minecraft/mods/radiantgear-forge-2.1.5+1.20.1.jar#504!/
+[20Dec2024 00:11:30.066] [main/INFO] [Puzzles Lib/]: Scheme for theorcs: /workspaces/ServerEkide/servidor_minecraft/mods/the-orcs-1.0-FORGE-1.20.x.jar#539!/
+[20Dec2024 00:11:30.066] [main/INFO] [Puzzles Lib/]: Scheme for hoporp: /workspaces/ServerEkide/servidor_minecraft/mods/HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7.jar#437!/
+[20Dec2024 00:11:30.067] [main/INFO] [Puzzles Lib/]: Scheme for lootr: /workspaces/ServerEkide/servidor_minecraft/mods/lootr-forge-1.20-0.7.34.85.jar#468!/
+[20Dec2024 00:11:30.067] [main/INFO] [Puzzles Lib/]: Scheme for miniboss_boss_bars: /workspaces/ServerEkide/servidor_minecraft/mods/Mini-boss Boss Bars.jar#475!/
+[20Dec2024 00:11:30.067] [main/INFO] [Puzzles Lib/]: Scheme for amendments: /workspaces/ServerEkide/servidor_minecraft/mods/amendments-1.20-1.1.18.jar#338!/
+[20Dec2024 00:11:30.068] [main/INFO] [Puzzles Lib/]: Scheme for caelus: /workspaces/ServerEkide/servidor_minecraft/mods/caelus-forge-3.2.0+1.20.1.jar#374!/
+[20Dec2024 00:11:30.068] [main/INFO] [Puzzles Lib/]: Scheme for kambrik: /workspaces/ServerEkide/servidor_minecraft/mods/Kambrik-6.1.1+1.20.1-forge.jar#456!/
+[20Dec2024 00:11:30.069] [main/INFO] [Puzzles Lib/]: Scheme for badmobs: /workspaces/ServerEkide/servidor_minecraft/mods/BadMobs-1.20.1-19.0.2.jar#348!/
+[20Dec2024 00:11:30.070] [main/INFO] [Puzzles Lib/]: Scheme for born_in_chaos_v1: /workspaces/ServerEkide/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar#366!/
+[20Dec2024 00:11:30.070] [main/INFO] [Puzzles Lib/]: Scheme for wits: /workspaces/ServerEkide/servidor_minecraft/mods/wits-1.1.0+1.20.1-forge.jar#557!/
+[20Dec2024 00:11:30.071] [main/INFO] [Puzzles Lib/]: Scheme for betterfortresses: /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar#562!/
+[20Dec2024 00:11:30.071] [main/INFO] [Puzzles Lib/]: Scheme for obscure_api: /workspaces/ServerEkide/servidor_minecraft/mods/obscure_api-15.jar#490!/
+[20Dec2024 00:11:30.072] [main/INFO] [Puzzles Lib/]: Scheme for pots_and_mimics: /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_pots_and_mimics_1.0.2_forge_1.20.1.jar#508!/
+[20Dec2024 00:11:30.072] [main/INFO] [Puzzles Lib/]: Scheme for seadwellers: /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_seadwellers_2.9.9_forge_1.20.1.jar#509!/
+[20Dec2024 00:11:30.073] [main/INFO] [Puzzles Lib/]: Scheme for framework: /workspaces/ServerEkide/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#425!/
+[20Dec2024 00:11:30.073] [main/INFO] [Puzzles Lib/]: Scheme for entity_texture_features: /workspaces/ServerEkide/servidor_minecraft/mods/entity_texture_features_forge_1.20.1-6.0.1.jar#409!/
+[20Dec2024 00:11:30.073] [main/INFO] [Puzzles Lib/]: Scheme for swem: /workspaces/ServerEkide/servidor_minecraft/mods/swem-1.20.1-1.4.0.jar#532!/
+[20Dec2024 00:11:30.074] [main/INFO] [Puzzles Lib/]: Scheme for taxva: /workspaces/ServerEkide/servidor_minecraft/mods/TaxVillageArchitect+M.1.20.1+ForM.1.1.1.jar#533!/
+[20Dec2024 00:11:30.074] [main/INFO] [Puzzles Lib/]: Scheme for mixinsquared: /workspaces/ServerEkide/servidor_minecraft/mods/supplementaries-1.20-2.8.11.jar#531!/
+[20Dec2024 00:11:30.076] [main/INFO] [Puzzles Lib/]: Scheme for polymorph: /workspaces/ServerEkide/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#500!/
+[20Dec2024 00:11:30.076] [main/INFO] [Puzzles Lib/]: Scheme for chunky: /workspaces/ServerEkide/servidor_minecraft/mods/Chunky-1.3.146.jar#381!/
+[20Dec2024 00:11:30.077] [main/INFO] [Puzzles Lib/]: Scheme for ferritecore: /workspaces/ServerEkide/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#420!/
+[20Dec2024 00:11:30.077] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#567!/
+[20Dec2024 00:11:30.077] [main/INFO] [Puzzles Lib/]: Scheme for kobolds: /workspaces/ServerEkide/servidor_minecraft/mods/Kobolds-2.10.14.jar#458!/
+[20Dec2024 00:11:30.080] [main/INFO] [Puzzles Lib/]: Scheme for explorify: /workspaces/ServerEkide/servidor_minecraft/mods/explorify-v1.3.0-mc1.20.jar#414!/
+[20Dec2024 00:11:30.080] [main/INFO] [Puzzles Lib/]: Scheme for jei: /workspaces/ServerEkide/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.4.jar#453!/
+[20Dec2024 00:11:30.081] [main/INFO] [Puzzles Lib/]: Scheme for resourcefullib: /workspaces/ServerEkide/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#513!/
+[20Dec2024 00:11:30.081] [main/INFO] [Puzzles Lib/]: Scheme for goblins_tyranny: /workspaces/ServerEkide/servidor_minecraft/mods/goblins_tyranny-1.0.3.jar#428!/
+[20Dec2024 00:11:30.081] [main/INFO] [Puzzles Lib/]: Scheme for chatimpressiveanimation: /workspaces/ServerEkide/servidor_minecraft/mods/ChatImpressiveAnimation-forge-1.0+mc1.20.x.jar#379!/
+[20Dec2024 00:11:30.082] [main/INFO] [Puzzles Lib/]: Scheme for collective: /workspaces/ServerEkide/servidor_minecraft/mods/collective-1.20.1-7.61.jar#387!/
+[20Dec2024 00:11:30.082] [main/INFO] [Puzzles Lib/]: Scheme for betterarcheology: /workspaces/ServerEkide/servidor_minecraft/mods/betterarcheology-1.1.7-1.20.1.jar#356!/
+[20Dec2024 00:11:30.083] [main/INFO] [Puzzles Lib/]: Scheme for mysticaloaktree: /workspaces/ServerEkide/servidor_minecraft/mods/mysticaloaktree-1.20-1.11.jar#484!/
+[20Dec2024 00:11:30.083] [main/INFO] [Puzzles Lib/]: Scheme for villagersellanimals: /workspaces/ServerEkide/servidor_minecraft/mods/nocube's_villagers_sell_animals_1.2.1_forge_1.20.1.jar#487!/
+[20Dec2024 00:11:30.083] [main/INFO] [Puzzles Lib/]: Scheme for curios: /workspaces/ServerEkide/servidor_minecraft/mods/curios-forge-5.8.0+1.20.1.jar#396!/
+[20Dec2024 00:11:30.085] [main/INFO] [Puzzles Lib/]: Scheme for t_and_t: /workspaces/ServerEkide/servidor_minecraft/mods/Towns-and-Towers-1.12-Fabric+Forge.jar#543!/
+[20Dec2024 00:11:30.086] [main/INFO] [Puzzles Lib/]: Scheme for bagusmob: /workspaces/ServerEkide/servidor_minecraft/mods/BagusMob-1.20.1-4.0.1.jar#350!/
+[20Dec2024 00:11:30.088] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /workspaces/ServerEkide/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#502!/
+[20Dec2024 00:11:30.089] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedcore: /workspaces/ServerEkide/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#524!/
+[20Dec2024 00:11:30.089] [main/INFO] [Puzzles Lib/]: Scheme for yungsapi: /workspaces/ServerEkide/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#558!/
+[20Dec2024 00:11:30.091] [main/INFO] [Puzzles Lib/]: Scheme for serverconfigupdater: /workspaces/ServerEkide/servidor_minecraft/mods/serverconfigupdater-4.0.2.jar#517!/
+[20Dec2024 00:11:30.091] [main/INFO] [Puzzles Lib/]: Scheme for chococraft: /workspaces/ServerEkide/servidor_minecraft/mods/chococraft-1.20.1-forge-0.9.11.jar#380!/
+[20Dec2024 00:11:30.092] [main/INFO] [Puzzles Lib/]: Scheme for prism: /workspaces/ServerEkide/servidor_minecraft/mods/Prism-1.20.1-forge-1.0.5.jar#501!/
+[20Dec2024 00:11:30.092] [main/INFO] [Puzzles Lib/]: Scheme for betterfpsdist: /workspaces/ServerEkide/servidor_minecraft/mods/betterfpsdist-1.20.1-4.3.jar#358!/
+[20Dec2024 00:11:30.093] [main/INFO] [Puzzles Lib/]: Scheme for attributefix: /workspaces/ServerEkide/servidor_minecraft/mods/AttributeFix-Forge-1.20.1-21.0.4.jar#345!/
+[20Dec2024 00:11:30.094] [main/INFO] [Puzzles Lib/]: Scheme for valhelsia_core: /workspaces/ServerEkide/servidor_minecraft/mods/valhelsia_core-forge-1.20.1-1.1.1.jar#548!/
+[20Dec2024 00:11:30.094] [main/INFO] [Puzzles Lib/]: Scheme for bettermineshafts: /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#561!/
+[20Dec2024 00:11:30.094] [main/INFO] [Puzzles Lib/]: Scheme for weaponmaster_ydm: /workspaces/ServerEkide/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#556!/
+[20Dec2024 00:11:30.096] [main/INFO] [Puzzles Lib/]: Scheme for tectonic: /workspaces/ServerEkide/servidor_minecraft/mods/tectonic-forge-1.19.3-2.3.2.jar#535!/
+[20Dec2024 00:11:30.098] [main/INFO] [Puzzles Lib/]: Scheme for leavesbegone: /workspaces/ServerEkide/servidor_minecraft/mods/LeavesBeGone-v8.0.0-1.20.1-Forge.jar#463!/
+[20Dec2024 00:11:30.098] [main/INFO] [Puzzles Lib/]: Scheme for illager_additions: /workspaces/ServerEkide/servidor_minecraft/mods/illager_additions-1.20.1-0.0.5-alpha.jar#442!/
+[20Dec2024 00:11:30.102] [main/INFO] [Puzzles Lib/]: Scheme for entity_model_features: /workspaces/ServerEkide/servidor_minecraft/mods/entity_model_features_forge_1.20.1-2.0.2.jar#408!/
+[20Dec2024 00:11:30.107] [main/INFO] [Puzzles Lib/]: Scheme for biomesoplenty: /workspaces/ServerEkide/servidor_minecraft/mods/BiomesOPlenty-1.20.1-18.0.0.592.jar#362!/
+[20Dec2024 00:11:30.108] [main/INFO] [Puzzles Lib/]: Scheme for goblintraders: /workspaces/ServerEkide/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#429!/
+[20Dec2024 00:11:30.110] [main/INFO] [Puzzles Lib/]: Scheme for clickadv: /workspaces/ServerEkide/servidor_minecraft/mods/clickadv-1.20.1-3.8.jar#384!/
+[20Dec2024 00:11:30.111] [main/INFO] [Puzzles Lib/]: Scheme for immersive_melodies: /workspaces/ServerEkide/servidor_minecraft/mods/immersive_melodies-0.2.0+1.20.1-forge.jar#445!/
+[20Dec2024 00:11:30.111] [main/INFO] [Puzzles Lib/]: Scheme for zeta: /workspaces/ServerEkide/servidor_minecraft/mods/Zeta-1.0-16.jar#565!/
+[20Dec2024 00:11:30.112] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /workspaces/ServerEkide/servidor_minecraft/mods/alexsmobs-1.22.8.jar#337!/
+[20Dec2024 00:11:30.113] [main/INFO] [Puzzles Lib/]: Scheme for damageindicator: /workspaces/ServerEkide/servidor_minecraft/mods/damageindicator-1.0.0-1.20.1.jar#397!/
+[20Dec2024 00:11:30.113] [main/INFO] [Puzzles Lib/]: Scheme for kiwi: /workspaces/ServerEkide/servidor_minecraft/mods/Kiwi-1.20.1-forge-11.6.2.jar#457!/
+[20Dec2024 00:11:30.113] [main/INFO] [Puzzles Lib/]: Scheme for controlling: /workspaces/ServerEkide/servidor_minecraft/mods/Controlling-forge-1.20.1-12.0.2.jar#388!/
+[20Dec2024 00:11:30.120] [main/INFO] [Puzzles Lib/]: Scheme for followersteleporttoo: /workspaces/ServerEkide/servidor_minecraft/mods/followersteleporttoo-1.20.1-2.4.jar#422!/
+[20Dec2024 00:11:30.120] [main/INFO] [Puzzles Lib/]: Scheme for realmrpg_demons: /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_imps_and_demons_0.9.0_forge_1.20.1.jar#507!/
+[20Dec2024 00:11:30.121] [main/INFO] [Puzzles Lib/]: Scheme for weaponmaster: /workspaces/ServerEkide/servidor_minecraft/mods/weaponmaster-1.4.2-1.20.1.jar#555!/
+[20Dec2024 00:11:30.121] [main/INFO] [Puzzles Lib/]: Scheme for simplywalk: /workspaces/ServerEkide/servidor_minecraft/mods/simplywalk-0.4.3.jar#518!/
+[20Dec2024 00:11:30.126] [main/INFO] [Puzzles Lib/]: Scheme for celestisynth: /workspaces/ServerEkide/servidor_minecraft/mods/celestisynth-1.20.1-1.2.2.jar#377!/
+[20Dec2024 00:11:30.127] [main/INFO] [Puzzles Lib/]: Scheme for make_bubbles_pop: /workspaces/ServerEkide/servidor_minecraft/mods/make_bubbles_pop-0.2.0-forge-mc1.19.4+.jar#470!/
+[20Dec2024 00:11:30.127] [main/INFO] [Puzzles Lib/]: Scheme for flywheel: /workspaces/ServerEkide/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#391!/
+[20Dec2024 00:11:30.127] [main/INFO] [Puzzles Lib/]: Scheme for mvs: /workspaces/ServerEkide/servidor_minecraft/mods/mvs-4.1.2-1.20-forge.jar#482!/
+[20Dec2024 00:11:30.128] [main/INFO] [Puzzles Lib/]: Scheme for myserveriscompatible: /workspaces/ServerEkide/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar#483!/
+[20Dec2024 00:11:30.128] [main/INFO] [Puzzles Lib/]: Scheme for gpumemleakfix: /workspaces/ServerEkide/servidor_minecraft/mods/gpumemleakfix-1.20.1-1.8.jar#431!/
+[20Dec2024 00:11:30.130] [main/INFO] [Puzzles Lib/]: Scheme for naturalist: /workspaces/ServerEkide/servidor_minecraft/mods/naturalist-forge-4.0.3-1.20.1.jar#485!/
+[20Dec2024 00:11:30.131] [main/INFO] [Puzzles Lib/]: Scheme for pickupnotifier: /workspaces/ServerEkide/servidor_minecraft/mods/PickUpNotifier-v8.0.0-1.20.1-Forge.jar#495!/
+[20Dec2024 00:11:30.132] [main/INFO] [Puzzles Lib/]: Scheme for structure_gel: /workspaces/ServerEkide/servidor_minecraft/mods/structure_gel-1.20.1-2.16.2.jar#530!/
+[20Dec2024 00:11:30.133] [main/INFO] [Puzzles Lib/]: Scheme for ad_astra: /workspaces/ServerEkide/servidor_minecraft/mods/ad_astra-forge-1.20.1-1.15.5.jar#334!/
+[20Dec2024 00:11:30.133] [main/INFO] [Puzzles Lib/]: Scheme for beggars: /workspaces/ServerEkide/servidor_minecraft/mods/Beggars-1.0.0-1.20.1-forge.jar#354!/
+[20Dec2024 00:11:30.133] [main/INFO] [Puzzles Lib/]: Scheme for starlight: /workspaces/ServerEkide/servidor_minecraft/mods/starlight-1.1.2+forge.1cda73c.jar#526!/
+[20Dec2024 00:11:30.134] [main/INFO] [Puzzles Lib/]: Scheme for wardrobe: /workspaces/ServerEkide/servidor_minecraft/mods/wardrobe-1.0.3-1.20.1.jar#553!/
+[20Dec2024 00:11:30.134] [main/INFO] [Puzzles Lib/]: Scheme for eeeabsmobs: /workspaces/ServerEkide/servidor_minecraft/mods/eeeabsmobs-1.20.1-0.8.jar#404!/
+[20Dec2024 00:11:30.134] [main/INFO] [Puzzles Lib/]: Scheme for cavedust: /workspaces/ServerEkide/servidor_minecraft/mods/v2.0.1 - 1.20.1 - Forge.jar#547!/
+[20Dec2024 00:11:30.135] [main/INFO] [Puzzles Lib/]: Scheme for aquaculture: /workspaces/ServerEkide/servidor_minecraft/mods/Aquaculture-1.20.1-2.5.1.jar#339!/
+[20Dec2024 00:11:30.135] [main/INFO] [Puzzles Lib/]: Scheme for lucent: /workspaces/ServerEkide/servidor_minecraft/mods/lucent-1.20.1-1.5.5.jar#469!/
+[20Dec2024 00:11:30.135] [main/INFO] [Puzzles Lib/]: Scheme for trajectory_preview: /workspaces/ServerEkide/servidor_minecraft/mods/Trajectory Preview-6.0.3-1.20.1.jar#544!/
+[20Dec2024 00:11:30.136] [main/INFO] [Puzzles Lib/]: Scheme for kotlinforforge: /workspaces/ServerEkide/servidor_minecraft/mods/kotlinforforge-4.10.0-all.jar#460!/
+[20Dec2024 00:11:30.136] [main/INFO] [Puzzles Lib/]: Scheme for dragonmounts: /workspaces/ServerEkide/servidor_minecraft/mods/dragonmounts-1.20.1-1.2.3-beta.jar#399!/
+[20Dec2024 00:11:30.137] [main/INFO] [Puzzles Lib/]: Scheme for farmersdelight: /workspaces/ServerEkide/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#418!/
+[20Dec2024 00:11:30.137] [main/INFO] [Puzzles Lib/]: Scheme for explorerscompass: /workspaces/ServerEkide/servidor_minecraft/mods/ExplorersCompass-1.20.1-1.3.3-forge.jar#413!/
+[20Dec2024 00:11:30.137] [main/INFO] [Puzzles Lib/]: Scheme for guardvillagers: /workspaces/ServerEkide/servidor_minecraft/mods/guardvillagers-1.20.1-1.6.5.jar#433!/
+[20Dec2024 00:11:30.139] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /workspaces/ServerEkide/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#502!/
+[20Dec2024 00:11:30.140] [main/INFO] [Puzzles Lib/]: Scheme for integrated_api: /workspaces/ServerEkide/servidor_minecraft/mods/integrated_api-1.5.0+1.20.1-forge.jar#447!/
+[20Dec2024 00:11:30.140] [main/INFO] [Puzzles Lib/]: Scheme for days_in_the_middle_ages: /workspaces/ServerEkide/servidor_minecraft/mods/Forge 1.20.1 Minecraft Middle Ages 0.0.5.jar#423!/
+[20Dec2024 00:11:30.140] [main/INFO] [Puzzles Lib/]: Scheme for extrasounds: /workspaces/ServerEkide/servidor_minecraft/mods/extrasounds-1.20.1-forge-1.3.jar#416!/
+[20Dec2024 00:11:30.142] [main/INFO] [Puzzles Lib/]: Scheme for bookshelf: /workspaces/ServerEkide/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.1.11.jar#365!/
+[20Dec2024 00:11:30.143] [main/INFO] [Puzzles Lib/]: Scheme for burnt: /workspaces/ServerEkide/servidor_minecraft/mods/burnt_basic-1.6.3_Forge_1.20.1.jar#371!/
+[20Dec2024 00:11:30.143] [main/INFO] [Puzzles Lib/]: Scheme for responsiveshields: /workspaces/ServerEkide/servidor_minecraft/mods/responsiveshields-2.3-mc1.18-19-20.x.jar#514!/
+[20Dec2024 00:11:30.143] [main/INFO] [Puzzles Lib/]: Scheme for naturescompass: /workspaces/ServerEkide/servidor_minecraft/mods/NaturesCompass-1.20.1-1.11.2-forge.jar#486!/
+[20Dec2024 00:11:30.144] [main/INFO] [Puzzles Lib/]: Scheme for crafttweaker: /workspaces/ServerEkide/servidor_minecraft/mods/CraftTweaker-forge-1.20.1-14.0.40.jar#390!/
+[20Dec2024 00:11:30.147] [main/INFO] [Puzzles Lib/]: Scheme for modernfix: /workspaces/ServerEkide/servidor_minecraft/mods/modernfix-forge-5.16.1+mc1.20.1.jar#477!/
+[20Dec2024 00:11:30.148] [main/INFO] [Puzzles Lib/]: Scheme for searchables: /workspaces/ServerEkide/servidor_minecraft/mods/Searchables-forge-1.20.1-1.0.3.jar#516!/
+[20Dec2024 00:11:30.148] [main/INFO] [Puzzles Lib/]: Scheme for boss_music_mod: /workspaces/ServerEkide/servidor_minecraft/mods/Boss Music Mod 1.20.1.jar#367!/
+[20Dec2024 00:11:30.148] [main/INFO] [Puzzles Lib/]: Scheme for itemproductionlib: /workspaces/ServerEkide/servidor_minecraft/mods/ItemProductionLib-1.20.1-1.0.2a-all.jar#451!/
+[20Dec2024 00:11:30.149] [main/INFO] [Puzzles Lib/]: Scheme for smallships: /workspaces/ServerEkide/servidor_minecraft/mods/smallships-forge-1.20.1-2.0.0-b1.2.jar#521!/
+[20Dec2024 00:11:30.149] [main/INFO] [Puzzles Lib/]: Scheme for melody: /workspaces/ServerEkide/servidor_minecraft/mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar#472!/
+[20Dec2024 00:11:30.149] [main/INFO] [Puzzles Lib/]: Scheme for tmg: /workspaces/ServerEkide/servidor_minecraft/mods/tmg-1.3.jar#542!/
+[20Dec2024 00:11:30.150] [main/INFO] [Puzzles Lib/]: Scheme for itemborders: /workspaces/ServerEkide/servidor_minecraft/mods/ItemBorders-1.20.1-forge-1.2.1.jar#449!/
+[20Dec2024 00:11:30.150] [main/INFO] [Puzzles Lib/]: Scheme for quark: /workspaces/ServerEkide/servidor_minecraft/mods/Quark-4.0-441.jar#503!/
+[20Dec2024 00:11:30.150] [main/INFO] [Puzzles Lib/]: Scheme for iceberg: /workspaces/ServerEkide/servidor_minecraft/mods/Iceberg-1.20.1-forge-1.1.21.jar#440!/
+[20Dec2024 00:11:30.151] [main/INFO] [Puzzles Lib/]: Scheme for resourcefulconfig: /workspaces/ServerEkide/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar#512!/
+[20Dec2024 00:11:30.151] [main/INFO] [Puzzles Lib/]: Scheme for easyanvils: /workspaces/ServerEkide/servidor_minecraft/mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar#403!/
+[20Dec2024 00:11:30.151] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /workspaces/ServerEkide/servidor_minecraft/mods/architectury-9.2.14-forge.jar#341!/
+[20Dec2024 00:11:30.152] [main/INFO] [Puzzles Lib/]: Scheme for forge: /workspaces/ServerEkide/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.2.21/forge-1.20.1-47.2.21-universal.jar#572!/
+[20Dec2024 00:11:30.152] [main/INFO] [Puzzles Lib/]: Scheme for tetra: /workspaces/ServerEkide/servidor_minecraft/mods/tetra-1.20.1-6.3.0.jar#537!/
+[20Dec2024 00:11:30.153] [main/INFO] [Puzzles Lib/]: Scheme for spectrelib: /workspaces/ServerEkide/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#500!/
+[20Dec2024 00:11:30.153] [main/INFO] [Puzzles Lib/]: Scheme for healingbed: /workspaces/ServerEkide/servidor_minecraft/mods/Healing+Bed+1.20.1.jar#434!/
+[20Dec2024 00:11:30.154] [main/INFO] [Puzzles Lib/]: Scheme for playeranimator: /workspaces/ServerEkide/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#497!/
+[20Dec2024 00:11:30.154] [main/INFO] [Puzzles Lib/]: Scheme for skyvillages: /workspaces/ServerEkide/servidor_minecraft/mods/SkyVillages-1.0.3-1.19.2-1.20.x-forge-release.jar#520!/
+[20Dec2024 00:11:30.156] [main/INFO] [Puzzles Lib/]: Scheme for jade: /workspaces/ServerEkide/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.2.jar#452!/
+[20Dec2024 00:11:30.157] [main/INFO] [Puzzles Lib/]: Scheme for visualworkbench: /workspaces/ServerEkide/servidor_minecraft/mods/VisualWorkbench-v8.0.0-1.20.1-Forge.jar#552!/
+[20Dec2024 00:11:30.158] [main/INFO] [Puzzles Lib/]: Scheme for advancementplaques: /workspaces/ServerEkide/servidor_minecraft/mods/AdvancementPlaques-1.20.1-forge-1.5.1.jar#335!/
+[20Dec2024 00:11:30.159] [main/INFO] [Puzzles Lib/]: Scheme for structorytowers: /workspaces/ServerEkide/servidor_minecraft/mods/Structory_Towers_1.20.4_v1.0.6.jar#529!/
+[20Dec2024 00:11:30.159] [main/INFO] [Puzzles Lib/]: Scheme for pamhc2foodcore: /workspaces/ServerEkide/servidor_minecraft/mods/pamhc2foodcore-1.20.4-1.0.5.jar#492!/
+[20Dec2024 00:11:30.159] [main/INFO] [Puzzles Lib/]: Scheme for bountiful: /workspaces/ServerEkide/servidor_minecraft/mods/Bountiful-6.0.3+1.20.1-forge.jar#369!/
+[20Dec2024 00:11:30.160] [main/INFO] [Puzzles Lib/]: Scheme for embeddium: /workspaces/ServerEkide/servidor_minecraft/mods/embeddium-0.3.14+mc1.20.1.jar#405!/
+[20Dec2024 00:11:30.160] [main/INFO] [Puzzles Lib/]: Scheme for perritomod: /workspaces/ServerEkide/servidor_minecraft/mods/Doggy Doggy-1.0.5.jar#398!/
+[20Dec2024 00:11:30.160] [main/INFO] [Puzzles Lib/]: Scheme for aquamirae: /workspaces/ServerEkide/servidor_minecraft/mods/aquamirae-6.API15.jar#340!/
+[20Dec2024 00:11:30.163] [main/INFO] [Puzzles Lib/]: Scheme for moonlight: /workspaces/ServerEkide/servidor_minecraft/mods/moonlight-1.20-2.11.31-forge.jar#478!/
+[20Dec2024 00:11:30.163] [main/INFO] [Puzzles Lib/]: Scheme for graveyard: /workspaces/ServerEkide/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#540!/
+[20Dec2024 00:11:30.164] [main/INFO] [Puzzles Lib/]: Scheme for alexscaves: /workspaces/ServerEkide/servidor_minecraft/mods/alexscaves-1.1.4.jar#336!/
+[20Dec2024 00:11:30.164] [main/INFO] [Puzzles Lib/]: Scheme for cristellib: /workspaces/ServerEkide/servidor_minecraft/mods/cristellib-1.1.5-forge.jar#394!/
+[20Dec2024 00:11:30.164] [main/INFO] [Puzzles Lib/]: Scheme for beansbackpacks: /workspaces/ServerEkide/servidor_minecraft/mods/BeansBackpacks-forge-1.20.1-2.0.jar#352!/
+[20Dec2024 00:11:30.165] [main/INFO] [Puzzles Lib/]: Scheme for beautify: /workspaces/ServerEkide/servidor_minecraft/mods/beautify-2.0.2.jar#353!/
+[20Dec2024 00:11:30.165] [main/INFO] [Puzzles Lib/]: Scheme for waystones: /workspaces/ServerEkide/servidor_minecraft/mods/waystones-forge-1.20-14.1.3.jar#554!/
+[20Dec2024 00:11:30.165] [main/INFO] [Puzzles Lib/]: Scheme for hopo: /workspaces/ServerEkide/servidor_minecraft/mods/HopoBetterMineshaft-[1.20.2-1.20.4]-1.2.2b.jar#436!/
+[20Dec2024 00:11:30.166] [main/INFO] [Puzzles Lib/]: Scheme for immediatelyfast: /workspaces/ServerEkide/servidor_minecraft/mods/ImmediatelyFast-Forge-1.2.12+1.20.4.jar#444!/
+[20Dec2024 00:11:30.166] [main/INFO] [Puzzles Lib/]: Scheme for mowziesmobs: /workspaces/ServerEkide/servidor_minecraft/mods/mowziesmobs-1.6.4.jar#480!/
+[20Dec2024 00:11:30.166] [main/INFO] [Puzzles Lib/]: Scheme for exposure: /workspaces/ServerEkide/servidor_minecraft/mods/exposure-1.20.1-1.6.0-forge.jar#415!/
+[20Dec2024 00:11:30.167] [main/INFO] [Puzzles Lib/]: Scheme for botarium: /workspaces/ServerEkide/servidor_minecraft/mods/botarium-forge-1.20.1-2.3.3.jar#368!/
+[20Dec2024 00:11:30.169] [main/INFO] [Puzzles Lib/]: Scheme for creature_compendium: /workspaces/ServerEkide/servidor_minecraft/mods/creature_compendium-1.2.1.jar#393!/
+[20Dec2024 00:11:30.169] [main/INFO] [Puzzles Lib/]: Scheme for incontrol: /workspaces/ServerEkide/servidor_minecraft/mods/incontrol-1.20-9.2.4.jar#446!/
+[20Dec2024 00:11:30.169] [main/INFO] [Puzzles Lib/]: Scheme for idas: /workspaces/ServerEkide/servidor_minecraft/mods/idas_forge-1.9.3+1.20.1.jar#441!/
+[20Dec2024 00:11:30.170] [main/INFO] [Puzzles Lib/]: Scheme for villagernames: /workspaces/ServerEkide/servidor_minecraft/mods/villagernames-1.20.1-7.3.jar#551!/
+[20Dec2024 00:11:30.170] [main/INFO] [Puzzles Lib/]: Scheme for yungsbridges: /workspaces/ServerEkide/servidor_minecraft/mods/YungsBridges-1.20-Forge-4.0.3.jar#564!/
+[20Dec2024 00:11:30.170] [main/INFO] [Puzzles Lib/]: Scheme for map_atlases: /workspaces/ServerEkide/servidor_minecraft/mods/map_atlases-1.20-6.0.7.jar#471!/
+[20Dec2024 00:11:30.172] [main/INFO] [Puzzles Lib/]: Scheme for supplementaries: /workspaces/ServerEkide/servidor_minecraft/mods/supplementaries-1.20-2.8.11.jar#531!/
+[20Dec2024 00:11:30.173] [main/INFO] [Puzzles Lib/]: Scheme for memorysettings: /workspaces/ServerEkide/servidor_minecraft/mods/memorysettings-1.20.1-5.4.jar#473!/
+[20Dec2024 00:11:30.173] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /workspaces/ServerEkide/servidor_minecraft/mods/moonlight-1.20-2.11.31-forge.jar#478!/
+[20Dec2024 00:11:30.174] [main/INFO] [Puzzles Lib/]: Scheme for blue_skies: /workspaces/ServerEkide/servidor_minecraft/mods/blue_skies-1.20.1-1.3.31.jar#363!/
+[20Dec2024 00:11:30.174] [main/INFO] [Puzzles Lib/]: Scheme for fpsreducer: /workspaces/ServerEkide/servidor_minecraft/mods/FpsReducer2-forge-1.20-2.5.jar#424!/
+[20Dec2024 00:11:30.174] [main/INFO] [Puzzles Lib/]: Scheme for dungeons_arise_seven_seas: /workspaces/ServerEkide/servidor_minecraft/mods/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar#402!/
+[20Dec2024 00:11:30.175] [main/INFO] [Puzzles Lib/]: Scheme for regions_unexplored: /workspaces/ServerEkide/servidor_minecraft/mods/RegionsUnexploredForge-0.5.5+1.20.1.jar#510!/
+[20Dec2024 00:11:30.175] [main/INFO] [Puzzles Lib/]: Scheme for betteroceanmonuments: /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar#563!/
+[20Dec2024 00:11:30.175] [main/INFO] [Puzzles Lib/]: Scheme for golemsarefriends: /workspaces/ServerEkide/servidor_minecraft/mods/golemsarefriends-1.20.0-1.0.1.jar#430!/
+[20Dec2024 00:11:30.179] [main/INFO] [Puzzles Lib/]: Scheme for patchouli: /workspaces/ServerEkide/servidor_minecraft/mods/Patchouli-1.20.1-84-FORGE.jar#494!/
+[20Dec2024 00:11:30.179] [main/INFO] [Puzzles Lib/]: Scheme for butchersdelightfoods: /workspaces/ServerEkide/servidor_minecraft/mods/Butchersdelight Foods beta 1.20.1 1.0.3.jar#373!/
+[20Dec2024 00:11:30.180] [main/INFO] [Puzzles Lib/]: Scheme for merchantmarkers: /workspaces/ServerEkide/servidor_minecraft/mods/MerchantMarkers-1.20.1-forge-1.3.3.jar#474!/
+[20Dec2024 00:11:30.180] [main/INFO] [Puzzles Lib/]: Scheme for mutil: /workspaces/ServerEkide/servidor_minecraft/mods/mutil-1.20.1-6.1.1.jar#481!/
+[20Dec2024 00:11:30.181] [main/INFO] [Puzzles Lib/]: Scheme for campfiresleeper: /workspaces/ServerEkide/servidor_minecraft/mods/Campfire_Resting1.4.0.jar#375!/
+[20Dec2024 00:11:30.181] [main/INFO] [Puzzles Lib/]: Scheme for clumps: /workspaces/ServerEkide/servidor_minecraft/mods/Clumps-forge-1.20.1-12.0.0.4.jar#386!/
+[20Dec2024 00:11:30.181] [main/INFO] [Puzzles Lib/]: Scheme for cataclysm: /workspaces/ServerEkide/servidor_minecraft/mods/L_Enders_Cataclysm-1.99.4 -1.20.1.jar#462!/
+[20Dec2024 00:11:30.182] [main/INFO] [Puzzles Lib/]: Scheme for lionfishapi: /workspaces/ServerEkide/servidor_minecraft/mods/lionfishapi-1.9.jar#466!/
+[20Dec2024 00:11:30.182] [main/INFO] [Puzzles Lib/]: Scheme for whatareyouvotingfor: /workspaces/ServerEkide/servidor_minecraft/mods/mobs vote 2023.jar#476!/
+[20Dec2024 00:11:30.182] [main/INFO] [Puzzles Lib/]: Scheme for hopour: /workspaces/ServerEkide/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar#438!/
+[20Dec2024 00:11:30.183] [main/INFO] [Puzzles Lib/]: Scheme for royalvariations: /workspaces/ServerEkide/servidor_minecraft/mods/royal_variations_[Forge]_1.20.1_1.0.jar#515!/
+[20Dec2024 00:11:30.183] [main/INFO] [Puzzles Lib/]: Scheme for terrablender: /workspaces/ServerEkide/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.4.jar#536!/
+[20Dec2024 00:11:30.184] [main/INFO] [Puzzles Lib/]: Scheme for lithostitched: /workspaces/ServerEkide/servidor_minecraft/mods/lithostitched-forge-1.20.1-1.1.5.jar#467!/
+[20Dec2024 00:11:30.184] [main/INFO] [Puzzles Lib/]: Scheme for playerrevive: /workspaces/ServerEkide/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.27_mc1.20.1.jar#499!/
+[20Dec2024 00:11:30.185] [main/INFO] [Puzzles Lib/]: Scheme for ctov: /workspaces/ServerEkide/servidor_minecraft/mods/[Forge]ctov-3.4.2.jar#333!/
+[20Dec2024 00:11:30.185] [main/INFO] [Puzzles Lib/]: Scheme for epicsamurai: /workspaces/ServerEkide/servidor_minecraft/mods/epicsamurai-0.0.44-1.20.1-neo.jar#411!/
+[20Dec2024 00:11:30.186] [main/INFO] [Puzzles Lib/]: Scheme for realmrpg_skeletons: /workspaces/ServerEkide/servidor_minecraft/mods/realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar#506!/
+[20Dec2024 00:11:30.186] [main/INFO] [Puzzles Lib/]: Scheme for fastload: /workspaces/ServerEkide/servidor_minecraft/mods/Fastload-Reforged-mc1.20.1-3.4.0.jar#419!/
+[20Dec2024 00:11:30.187] [main/INFO] [Puzzles Lib/]: Scheme for dungeoncrawl: /workspaces/ServerEkide/servidor_minecraft/mods/Dungeon Crawl-1.20.1-2.3.14.jar#400!/
+[20Dec2024 00:11:30.187] [main/INFO] [Puzzles Lib/]: Scheme for letmedespawn: /workspaces/ServerEkide/servidor_minecraft/mods/letmedespawn-forge-1.20.x-1.2.0.jar#464!/
+[20Dec2024 00:11:30.189] [main/INFO] [Puzzles Lib/]: Scheme for asynclocator: /workspaces/ServerEkide/servidor_minecraft/mods/async-locator-forge-1.20-1.3.0.jar#344!/
+[20Dec2024 00:11:30.189] [main/INFO] [Puzzles Lib/]: Scheme for butchersdelight: /workspaces/ServerEkide/servidor_minecraft/mods/Butchersdelight beta 1.20.1 2.1.0.jar#372!/
+[20Dec2024 00:11:30.190] [main/INFO] [Puzzles Lib/]: Scheme for bewitched_brewery: /workspaces/ServerEkide/servidor_minecraft/mods/bewitched_brewery-1.0.0.jar#360!/
+[20Dec2024 00:11:30.191] [main/INFO] [Puzzles Lib/]: Scheme for rats: /workspaces/ServerEkide/servidor_minecraft/mods/Rats-1.20.1-8.1.2.jar#505!/
+[20Dec2024 00:11:30.191] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /workspaces/ServerEkide/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#382!/
+[20Dec2024 00:11:30.191] [main/INFO] [Puzzles Lib/]: Scheme for sitmod: /workspaces/ServerEkide/servidor_minecraft/mods/Sitting+1.0.3.jar#519!/
+[20Dec2024 00:11:30.193] [main/INFO] [Puzzles Lib/]: Scheme for balm: /workspaces/ServerEkide/servidor_minecraft/mods/balm-forge-1.20.1-7.2.2.jar#351!/
+[20Dec2024 00:11:30.193] [main/INFO] [Puzzles Lib/]: Scheme for oculus: /workspaces/ServerEkide/servidor_minecraft/mods/oculus-mc1.20.1-1.7.0.jar#491!/
+[20Dec2024 00:11:30.194] [main/INFO] [Puzzles Lib/]: Scheme for betterdeserttemples: /workspaces/ServerEkide/servidor_minecraft/mods/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar#559!/
+[20Dec2024 00:11:30.195] [main/INFO] [Puzzles Lib/]: Scheme for endermanoverhaul: /workspaces/ServerEkide/servidor_minecraft/mods/endermanoverhaul-forge-1.20.1-1.0.4.jar#406!/
+[20Dec2024 00:11:30.202] [main/INFO] [Puzzles Lib/]: Scheme for eternal_tales: /workspaces/ServerEkide/servidor_minecraft/mods/Eternal Tales [Arboterum] [v1.6.33] [Forge 1.20.1].jar#412!/
+[20Dec2024 00:11:30.202] [main/INFO] [Puzzles Lib/]: Scheme for repurposed_structures: /workspaces/ServerEkide/servidor_minecraft/mods/repurposed_structures-7.1.14+1.20.1-forge.jar#511!/
+[20Dec2024 00:11:30.202] [main/INFO] [Puzzles Lib/]: Scheme for endrem: /workspaces/ServerEkide/servidor_minecraft/mods/endrem_forge-5.2.3-R-1.20.X.jar#407!/
+[20Dec2024 00:11:30.203] [main/INFO] [Puzzles Lib/]: Scheme for structory: /workspaces/ServerEkide/servidor_minecraft/mods/Structory_1.20.2_v1.3.4.jar#528!/
+[20Dec2024 00:11:30.203] [main/INFO] [Puzzles Lib/]: Scheme for paraglider: /workspaces/ServerEkide/servidor_minecraft/mods/Paraglider-forge-20.1.3.jar#493!/
+[20Dec2024 00:11:30.203] [main/INFO] [Puzzles Lib/]: Scheme for creativecore: /workspaces/ServerEkide/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#392!/
+[20Dec2024 00:11:30.204] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedbackpacks: /workspaces/ServerEkide/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#523!/
+[20Dec2024 00:11:30.206] [main/INFO] [Puzzles Lib/]: Scheme for textrues_embeddium_options: /workspaces/ServerEkide/servidor_minecraft/mods/textrues_embeddium_options-0.1.5+mc1.20.1.jar#538!/
+[20Dec2024 00:11:30.206] [main/INFO] [Puzzles Lib/]: Scheme for hourglass: /workspaces/ServerEkide/servidor_minecraft/mods/hourglass-1.20-1.2.1.1.jar#439!/
+[20Dec2024 00:11:30.206] [main/INFO] [Puzzles Lib/]: Scheme for mousetweaks: /workspaces/ServerEkide/servidor_minecraft/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#479!/
+[20Dec2024 00:11:30.207] [main/INFO] [Puzzles Lib/]: Scheme for illagerrevolutionmod: /workspaces/ServerEkide/servidor_minecraft/mods/illagerrevolutionmod-1.4.jar#443!/
+[20Dec2024 00:11:30.228] [main/INFO] [Puzzles Lib/]: Loading 237 mods:
+	- ad_astra 1.15.5
+	- advancementplaques 1.5.1
+	- alexscaves 1.1.4
+	- alexsmobs 1.22.8
+	- amendments 1.20-1.1.18
+	- aquaculture 2.5.1
+	- aquamirae 6.API15
+	- architectury 9.2.14
+	- ars_nouveau 4.11.0
+	- astikorcarts 1.1.7
+	- asynclocator 1.3.0
+	- attributefix 21.0.4
+	- azurelib 2.0.222
+	- badmobs 19.0.2
+	- bagus_lib 1.20.1-4.6.0
+	- bagusmob 1.20.1-4.0.1
+	- balm 7.2.2
+	- beansbackpacks 2.0
+	- beautify 2.0.2
+	- beggars 1.0.0
+	- better_totem_of_undying 1.2.0
+	- betteradvancements 0.3.2.162
+	- betterarcheology 1.1.7-1.20.1
+	- bettercombat 1.8.5+1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterfortresses 1.20-Forge-2.0.6
+	- betterfpsdist 1.20.1-4.3
+	- betterjungletemples 1.20-Forge-2.0.5
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- bewitched_brewery 1.0.0
+	- biomemusic 1.20.1-2.3
+	- biomesoplenty 18.0.0.592
+	- blue_skies 1.3.31
+	- bookshelf 20.1.11
+	- born_in_chaos_v1 1.0.0
+	- boss_music_mod 1.0.0
+	- botarium 2.3.3
+	- bountiful 6.0.3+1.20.1
+	- breezy 1.1.1
+	- burnt 1.6.3
+	- butchersdelight 1.20.12.1.0
+	- butchersdelightfoods 1.20.11.0.3
+	- caelus 3.2.0+1.20.1
+	- campfiresleeper 1.3.0
+	- canary 0.3.3
+	- cataclysm 1.99.4
+	- cavedust 2.0.1
+	- celestisynth 1.20.1-1.2.2
+	- cerbons_api 1.0.0
+	- chatimpressiveanimation 1.0+mc1.20.4
+	- chococraft 0.9.11
+	- chunky 1.3.146
+	- citadel 2.5.4
+	- cleanswing 1.20-1.5
+	- clickadv 1.20.1-3.8
+	- cloth_config 11.1.118
+	- clumps 12.0.0.4
+	- collective 7.61
+	- controlling 12.0.2
+	- coroutil 1.20.1-1.3.7
+	- crafttweaker 14.0.40
+	- create 0.5.1.f
+		\-- flywheel 0.6.10-7
+	- creativecore 2.11.30
+	- creature_compendium 1.2.1
+	- cristellib 1.1.5
+	- ctov 3.4.2
+	- cupboard 1.20.1-2.6
+	- curios 5.8.0+1.20.1
+	- damageindicator 1.0.0-1.20.1
+	- days_in_the_middle_ages 0.0.5
+	- dragonmounts 1.2.3-beta
+	- dungeoncrawl 2.3.14
+	- dungeons_arise 2.1.58-1.20.x
+	- dungeons_arise_seven_seas 1.0.2
+	- easyanvils 8.0.2
+	- eeeabsmobs 1.20.1-0.8
+	- embeddium 0.3.14+mc1.20.1
+		\-- rubidium 0.7.1
+	- endermanoverhaul 1.0.4
+	- endrem 5.2.3-R-1.20.1
+	- entity_model_features 2.0.2
+	- entity_texture_features 6.0.1
+	- epicfight 20.7.4
+	- epicsamurai 0.0.44-1.20.1-neo
+	- eternal_tales 1.6.33
+	- explorerscompass 1.20.1-1.3.3-forge
+	- explorify 1.3.0-mc1.20
+	- exposure 1.6.0
+	- extrasounds 1.3
+	- fallingleaves 2.1.0
+	- farmersdelight 1.20.1-1.2.4
+	- fastload 3.4.0
+	- ferritecore 6.0.1
+	- fishingoverhaul 1.20.1-1.0.0
+	- followersteleporttoo 2.4
+	- forge 47.2.21
+	- fpsreducer 1.20-2.5
+	- framework 0.7.6
+	- geckolib 4.4.4
+	- gnumus 1.0.0
+	- goblins_tyranny 1.0.3
+	- goblintraders 1.9.3
+	- golemsarefriends 1.20.0-1.0.1
+	- gpumemleakfix 1.20.1-1.8
+	- gravestone 1.20.1-1.0.15
+	- graveyard 3.1
+	- guardvillagers 1.20.1-1.6.5
+	- healingbed 1.20.1
+	- healingcampfire 5.3
+	- hopo 1.2.2
+	- hoporp 1.3.7
+	- hopour 1.1.4
+	- hourglass 1.2.1.1
+	- iceberg 1.1.21
+	- idas 1.9.3+1.20.1
+	- illager_additions 1.20.1-0.0.2-alpha
+	- illagerrevolutionmod 1.4}
+	- immediatelyfast 1.2.12+1.20.4
+	- immersive_melodies 0.2.0+1.20.1
+	- incontrol 1.20-9.2.4
+	- integrated_api 1.5.0+1.20.1-forge
+	- irons_spellbooks 1.20.1-3.1.7.1
+	- itemborders 1.2.1
+	- itemphysic 1.7.1
+	- itemproductionlib 1.0.2a
+	- jade 11.9.2+forge
+	- jei 15.3.0.4
+	- justleveling 1.7
+	- justzoom 1.0.2
+	- kambrik 6.1.1+1.20.1
+	- kiwi 11.6.2
+	- kobolds 2.10.14
+	- konkrete 1.8.0
+	- kotlinforforge 4.10.0
+	- leavesbegone 8.0.0
+	- letmedespawn 1.2.0
+	- library_of_exile 1.4.3
+	- lionfishapi 1.9
+	- lithostitched 1.1.5
+	- lootr 0.7.34.85
+	- lucent 1.5.5
+	- make_bubbles_pop 0.2.0-forge
+	- map_atlases 1.20-6.0.7
+	- melody 1.0.2
+	- memorysettings 1.20.1-5.4
+	- merchantmarkers 1.3.3
+	- minecraft 1.20.1
+	- miniboss_boss_bars 1.0.0
+	- modernfix 5.16.1+mc1.20.1
+	- moonlight 1.20-2.11.31
+		\-- mixinextras 0.3.6
+	- mousetweaks 2.25.1
+	- mowziesmobs 1.6.4
+	- mr_stellarity 2.0d
+	- mr_tidal_towns 1.3
+	- mutil 6.1.1
+	- mvs 4.1.2-1.20-forge
+	- myserveriscompatible 1.0
+	- mysticaloaktree 1.20-1.11
+	- naturalist 4.0.3
+	- naturescompass 1.20.1-1.11.2-forge
+	- nbt 1.0.5
+	- notenoughanimations 1.7.3
+	- obscure_api 15
+	- oculus 1.7.0
+	- pamhc2foodcore 1.0.5
+	- paraglider 20.1.3
+	- patchouli 1.20.1-84-FORGE
+	- perritomod 1.0.0
+	- pickupnotifier 8.0.0
+	- pingwheel 1.8.0
+	- player_companions 6.11.0
+	- playeranimator 1.0.2-rc1+1.20
+	- playerrevive 2.0.27
+	- polymorph 0.49.5+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- pots_and_mimics 1.0.2
+	- prism 1.0.5
+	- puzzleslib 8.1.20
+		\-- puzzlesaccessapi 8.0.7
+	- quark 4.0-441
+	- radiantgear 2.1.5+1.20.1
+	- rats 1.20.1-8.1.2
+	- realmrpg_demons 0.9.0
+	- realmrpg_skeletons 1.0.3
+	- regions_unexplored 0.5.5
+	- repurposed_structures 7.1.14+1.20.1-forge
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.25
+	- responsiveshields 2.3
+	- royalvariations 1.0.0
+	- seadwellers 2.9.9
+	- searchables 1.0.3
+	- serverconfigupdater 4.0.2
+	- simplywalk 0.4.3
+	- sitmod 1.0.3
+	- skyvillages 1.0.3
+	- smallships 2.0.0-b1.2
+	- snowrealmagic 10.4.0
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+	- stalwart_dungeons 1.2.8
+	- starlight 1.1.2+forge.1cda73c
+	- structory 1.3.4
+	- structorytowers 1.0.6
+	- structure_gel 2.16.2
+	- supplementaries 1.20-2.8.11
+		\-- mixinsquared 0.1.1
+	- swem 1.4.0
+	- t_and_t 0.0NONE
+	- taxva 1.1.1
+	- taxwl 1.0.2
+	- tectonic 2.3.2
+	- terrablender 3.0.1.4
+	- tetra 6.3.0
+	- textrues_embeddium_options 0.1.5+mc1.20.1
+		\-- reeses_sodium_options 1.0.4
+	- theorcs 1.0-FORGE-1.20.x
+	- tmg 1.3
+	- trajectory_preview 6.0.3-1.20.1
+	- travelerstitles 1.20-Forge-4.0.2
+	- twilightforest 4.3.2145
+	- valhelsia_core 1.1.1
+	- valhelsia_furniture 1.1.2
+	- valhelsia_structures 1.20.1-1.1.1
+	- villagernames 7.3
+	- villagersellanimals 1.2.1
+	- visualworkbench 8.0.0
+	- wardrobe 1.0.3
+	- waystones 14.1.3
+	- weaponmaster 1.4.2-1.19.2
+	- weaponmaster_ydm 4.2.3
+	- whatareyouvotingfor 1.2.2
+	- wits 1.1.0+1.20.1-forge
+	- yungsapi 1.20-Forge-4.0.5
+	- yungsbridges 1.20-Forge-4.0.3
+	- zeta 1.0-16
+[20Dec2024 00:11:30.266] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:30.288] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:30.317] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:30.355] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[20Dec2024 00:11:30.357] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[20Dec2024 00:11:30.407] [main/WARN] [mixin/]: Reference map 'mixins.beggars.refmap.json' for mixins.beggars.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:30.459] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:30.628] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:30.631] [main/WARN] [mixin/]: Reference map 'mvs-forge-refmap.json' for mvs-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Dec2024 00:11:31.779] [main/WARN] [mixin/]: Error loading class: sereneseasons/handler/season/RandomUpdateHandler (java.lang.ClassNotFoundException: sereneseasons.handler.season.RandomUpdateHandler)
+[20Dec2024 00:11:31.780] [main/WARN] [mixin/]: @Mixin target sereneseasons.handler.season.RandomUpdateHandler was not found snowrealmagic.mixins.json:sereneseasons.RandomUpdateHandlerMixin
+[20Dec2024 00:11:33.723] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[20Dec2024 00:11:33.730] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[20Dec2024 00:11:35.145] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[20Dec2024 00:11:35.150] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[20Dec2024 00:11:35.151] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
+[20Dec2024 00:11:35.155] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[20Dec2024 00:11:35.164] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[20Dec2024 00:11:35.165] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
+[20Dec2024 00:11:37.071] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[20Dec2024 00:11:40.593] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (40.08 s after launch)
+[20Dec2024 00:11:41.027] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Dec2024 00:11:41.030] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Dec2024 00:11:41.535] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Dec2024 00:11:41.536] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[20Dec2024 00:11:41.536] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[20Dec2024 00:11:41.537] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Dec2024 00:11:49.182] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 8583 milliseconds
+[20Dec2024 00:11:51.350] [main/WARN] [mixin/]: @Final field f_31427_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[20Dec2024 00:11:51.353] [main/WARN] [mixin/]: @Final field f_31428_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[20Dec2024 00:11:52.096] [main/WARN] [mixin/]: Method overwrite conflict for m_5995_ in map_atlases-common.mixins.json:LecternBlockEntityMixin, previously written by net.mehvahdjukaar.amendments.mixins.LecternBlockEntityMixin. Skipping method.
+[20Dec2024 00:11:53.796] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
+[20Dec2024 00:11:56.542] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20Dec2024 00:11:57.354] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[20Dec2024 00:11:57.897] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for pickupnotifier:main
+[20Dec2024 00:11:58.406] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for leavesbegone:main
+[20Dec2024 00:11:58.457] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[20Dec2024 00:11:58.462] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.2.21.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.14+mc1.20.1.jar%23405!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:100) ~[embeddium-0.3.14+mc1.20.1.jar%23405!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:41) ~[embeddium-0.3.14+mc1.20.1.jar%23405!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.21.jar%23569!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20Dec2024 00:11:58.810] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[20Dec2024 00:11:58.811] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: oculus, class net.irisshaders.iris.Iris
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.2.21.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3754) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.21.jar%23569!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20Dec2024 00:11:58.835] [modloading-worker-0/WARN] [ModdingLegacy/Lucent/]: [lucent] LUCENT IS A CLIENT SIDE MOD. IT DOES NOT NEED TO BE INSTALLED ON THE SERVER.
+[20Dec2024 00:12:00.923] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[20Dec2024 00:12:01.119] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 3 KiwiModule annotations
+[20Dec2024 00:12:01.386] [modloading-worker-0/WARN] [fallingleaves/]: Falling Leaves is a client only mod and should be removed from the mods list
+[20Dec2024 00:12:01.409] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[20Dec2024 00:12:01.597] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:basic_attack
+[20Dec2024 00:12:01.599] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:air_attack
+[20Dec2024 00:12:01.600] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:roll
+[20Dec2024 00:12:01.601] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:step
+[20Dec2024 00:12:01.602] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:knockdown_wakeup
+[20Dec2024 00:12:01.629] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:guard
+[20Dec2024 00:12:01.638] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:parrying
+[20Dec2024 00:12:01.643] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:impact_guard
+[20Dec2024 00:12:01.647] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:berserker
+[20Dec2024 00:12:01.648] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:death_harvest
+[20Dec2024 00:12:01.657] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:emergency_escape
+[20Dec2024 00:12:01.659] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:endurance
+[20Dec2024 00:12:01.660] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:forbidden_strength
+[20Dec2024 00:12:01.661] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:hypervitality
+[20Dec2024 00:12:01.662] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:stamina_pillager
+[20Dec2024 00:12:01.665] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:swordmaster
+[20Dec2024 00:12:01.667] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:technician
+[20Dec2024 00:12:01.687] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:sweeping_edge
+[20Dec2024 00:12:01.696] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:dancing_edge
+[20Dec2024 00:12:01.697] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:the_guillotine
+[20Dec2024 00:12:01.699] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:grasping_spire
+[20Dec2024 00:12:01.699] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:heartpiercer
+[20Dec2024 00:12:01.703] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:steel_whirlwind
+[20Dec2024 00:12:01.704] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:battojutsu
+[20Dec2024 00:12:01.707] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:battojutsu_passive
+[20Dec2024 00:12:01.710] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:rushing_tempo
+[20Dec2024 00:12:01.715] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:relentless_combo
+[20Dec2024 00:12:01.725] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:liechtenauer
+[20Dec2024 00:12:01.726] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:sharp_stab
+[20Dec2024 00:12:01.728] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:eviscerate
+[20Dec2024 00:12:01.783] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:blade_rush
+[20Dec2024 00:12:01.784] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:wrathful_lighting
+[20Dec2024 00:12:01.785] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:tsunami
+[20Dec2024 00:12:01.786] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:everlasting_allegiance
+[20Dec2024 00:12:01.792] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:meteor_slam
+[20Dec2024 00:12:01.794] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:revelation
+[20Dec2024 00:12:01.800] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:demolition_leap
+[20Dec2024 00:12:01.810] [modloading-worker-0/INFO] [epicfight/]: Registered skill epicfight:epicfight:phantom_ascent
+[20Dec2024 00:12:02.198] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[20Dec2024 00:12:02.335] [modloading-worker-0/ERROR] [org.arbor.extrasounds.ExtraSounds/]: [ExtraSounds] Unexpected error has caught
+java.lang.NullPointerException: Cannot invoke "Object.getClass()" because the return value of "java.lang.reflect.Field.get(Object)" is null
+	at org.arbor.extrasounds.ExtraSounds.initCategoryLoader(ExtraSounds.java:136) ~[extrasounds-1.20.1-forge-1.3.jar%23416!/:?]
+	at org.arbor.extrasounds.ExtraSounds.<init>(ExtraSounds.java:64) ~[extrasounds-1.20.1-forge-1.3.jar%23416!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.21.jar%23569!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20Dec2024 00:12:02.400] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[20Dec2024 00:12:03.036] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[20Dec2024 00:12:03.266] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[20Dec2024 00:12:05.310] [modloading-worker-0/INFO] [Collective/]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[20Dec2024 00:12:05.873] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.21, for MC 1.20.1 with MCP 20230612.114412
+[20Dec2024 00:12:05.873] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.21 Initialized
+[20Dec2024 00:12:06.868] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[20Dec2024 00:12:06.875] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[20Dec2024 00:12:06.936] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[20Dec2024 00:12:06.937] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[20Dec2024 00:12:06.938] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[20Dec2024 00:12:06.938] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[20Dec2024 00:12:06.940] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[20Dec2024 00:12:06.940] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[20Dec2024 00:12:06.941] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[20Dec2024 00:12:06.953] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[20Dec2024 00:12:07.027] [modloading-worker-0/INFO] [Beans' Backpacks/]: Initializing Beans' Backpacks Constants
+[20Dec2024 00:12:07.030] [modloading-worker-0/INFO] [Beans' Backpacks/]: Initializing Beans' Backpacks Common
+[20Dec2024 00:12:07.040] [modloading-worker-0/INFO] [Beans' Backpacks/]: Initializing Beans' Backpacks Forge
+[20Dec2024 00:12:07.060] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[20Dec2024 00:12:07.061] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[20Dec2024 00:12:07.289] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_model_features, class traben.entity_model_features.forge.EMFForge
+java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing
+	at traben.entity_model_features.forge.EMFForge.<init>(EMFForge.java:37) ~[entity_model_features_forge_1.20.1-2.0.2.jar%23408!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.21.jar%23569!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20Dec2024 00:12:07.321] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_texture_features, class traben.entity_texture_features.forge.ETFClientForge
+java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing
+	at traben.entity_texture_features.forge.ETFClientForge.<init>(ETFClientForge.java:51) ~[entity_texture_features_forge_1.20.1-6.0.1.jar%23409!/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.21.jar%23569!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20Dec2024 00:12:07.391] [modloading-worker-0/INFO] [dev.buildtool.trajectory.preview.TrajectoryPreview/]: Loaded and prepared 1 plugin(s)
+[20Dec2024 00:12:07.832] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: memorysettings.json
+[20Dec2024 00:12:07.837] [modloading-worker-0/WARN] [com.memorysettings.MemorysettingsMod/]: You have less memory allocated(1984mb) than recommended for this pack, the minimum is: 2500mb.
+The recommended amount for your system is: 4185 mb.
+
+[20Dec2024 00:12:08.376] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.61.
+[20Dec2024 00:12:08.795] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Dec2024 00:12:08.816] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[20Dec2024 00:12:09.152] [modloading-worker-0/INFO] [ping-wheel/]: [Ping-Wheel] Init
+[20Dec2024 00:12:09.160] [modloading-worker-0/INFO] [ping-wheel/]: [Ping-Wheel] Loaded ServerConfig(globalChannelDisabled=false, msToRegenerate=1000, rateLimit=5)
+[20Dec2024 00:12:09.191] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@2b395581 on thread Thread[#31,modloading-worker-0,5,main]
+[20Dec2024 00:12:09.191] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2394) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2505) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:361) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:286) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:221) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:316) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23490!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23490!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23490!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23490!/:com.obscuria]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.21.jar%23569!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20Dec2024 00:12:09.193] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[20Dec2024 00:12:09.397] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[20Dec2024 00:12:09.724] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[20Dec2024 00:12:11.666] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[20Dec2024 00:12:11.666] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: cavedust, class net.lizistired.cavedust.forge.CaveDustForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.2.21.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3754) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.21.jar%23569!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20Dec2024 00:12:11.689] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
+[20Dec2024 00:12:12.496] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 163 modules to load.
+[20Dec2024 00:12:12.508] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
+[20Dec2024 00:12:12.513] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
+[20Dec2024 00:12:12.523] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
+[20Dec2024 00:12:12.529] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
+[20Dec2024 00:12:12.549] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
+[20Dec2024 00:12:12.593] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
+[20Dec2024 00:12:12.594] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
+[20Dec2024 00:12:12.594] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
+[20Dec2024 00:12:12.595] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
+[20Dec2024 00:12:12.599] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
+[20Dec2024 00:12:12.601] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
+[20Dec2024 00:12:12.602] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
+[20Dec2024 00:12:12.622] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
+[20Dec2024 00:12:12.629] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
+[20Dec2024 00:12:12.630] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
+[20Dec2024 00:12:12.653] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
+[20Dec2024 00:12:12.655] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
+[20Dec2024 00:12:12.657] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
+[20Dec2024 00:12:12.659] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
+[20Dec2024 00:12:12.672] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
+[20Dec2024 00:12:12.673] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
+[20Dec2024 00:12:12.673] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
+[20Dec2024 00:12:12.674] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
+[20Dec2024 00:12:12.674] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
+[20Dec2024 00:12:12.676] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
+[20Dec2024 00:12:12.677] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
+[20Dec2024 00:12:12.679] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
+[20Dec2024 00:12:12.682] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
+[20Dec2024 00:12:12.684] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
+[20Dec2024 00:12:12.685] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
+[20Dec2024 00:12:12.694] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
+[20Dec2024 00:12:12.735] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
+[20Dec2024 00:12:12.743] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
+[20Dec2024 00:12:12.746] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
+[20Dec2024 00:12:12.748] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
+[20Dec2024 00:12:12.749] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
+[20Dec2024 00:12:12.761] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
+[20Dec2024 00:12:12.762] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
+[20Dec2024 00:12:12.762] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
+[20Dec2024 00:12:12.763] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
+[20Dec2024 00:12:12.764] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
+[20Dec2024 00:12:12.764] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
+[20Dec2024 00:12:12.765] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
+[20Dec2024 00:12:12.765] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
+[20Dec2024 00:12:12.766] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
+[20Dec2024 00:12:12.766] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
+[20Dec2024 00:12:12.767] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
+[20Dec2024 00:12:12.769] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
+[20Dec2024 00:12:12.769] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
+[20Dec2024 00:12:12.774] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
+[20Dec2024 00:12:12.775] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
+[20Dec2024 00:12:12.779] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
+[20Dec2024 00:12:12.786] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
+[20Dec2024 00:12:12.815] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
+[20Dec2024 00:12:12.822] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
+[20Dec2024 00:12:12.823] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
+[20Dec2024 00:12:12.823] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
+[20Dec2024 00:12:12.825] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
+[20Dec2024 00:12:12.834] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
+[20Dec2024 00:12:12.880] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
+[20Dec2024 00:12:12.881] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
+[20Dec2024 00:12:12.882] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
+[20Dec2024 00:12:12.883] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
+[20Dec2024 00:12:12.925] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
+[20Dec2024 00:12:12.929] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
+[20Dec2024 00:12:12.936] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
+[20Dec2024 00:12:12.939] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
+[20Dec2024 00:12:12.941] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
+[20Dec2024 00:12:12.941] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
+[20Dec2024 00:12:12.946] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
+[20Dec2024 00:12:12.947] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
+[20Dec2024 00:12:12.947] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
+[20Dec2024 00:12:12.948] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
+[20Dec2024 00:12:12.949] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
+[20Dec2024 00:12:12.952] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
+[20Dec2024 00:12:13.005] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
+[20Dec2024 00:12:13.006] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
+[20Dec2024 00:12:13.009] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
+[20Dec2024 00:12:13.009] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
+[20Dec2024 00:12:13.010] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
+[20Dec2024 00:12:13.010] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
+[20Dec2024 00:12:13.011] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
+[20Dec2024 00:12:13.034] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
+[20Dec2024 00:12:13.041] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
+[20Dec2024 00:12:13.091] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
+[20Dec2024 00:12:13.093] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
+[20Dec2024 00:12:13.094] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
+[20Dec2024 00:12:13.095] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
+[20Dec2024 00:12:13.096] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
+[20Dec2024 00:12:13.097] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
+[20Dec2024 00:12:13.101] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
+[20Dec2024 00:12:13.102] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
+[20Dec2024 00:12:13.106] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
+[20Dec2024 00:12:13.107] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
+[20Dec2024 00:12:13.107] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
+[20Dec2024 00:12:13.108] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
+[20Dec2024 00:12:13.111] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
+[20Dec2024 00:12:13.113] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
+[20Dec2024 00:12:13.117] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
+[20Dec2024 00:12:13.117] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
+[20Dec2024 00:12:13.119] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
+[20Dec2024 00:12:13.119] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
+[20Dec2024 00:12:13.120] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
+[20Dec2024 00:12:13.126] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
+[20Dec2024 00:12:13.135] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
+[20Dec2024 00:12:13.141] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
+[20Dec2024 00:12:13.142] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
+[20Dec2024 00:12:13.146] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
+[20Dec2024 00:12:13.162] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
+[20Dec2024 00:12:13.166] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
+[20Dec2024 00:12:13.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
+[20Dec2024 00:12:13.173] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
+[20Dec2024 00:12:13.173] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
+[20Dec2024 00:12:13.174] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
+[20Dec2024 00:12:13.174] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
+[20Dec2024 00:12:13.175] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
+[20Dec2024 00:12:13.180] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
+[20Dec2024 00:12:13.181] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
+[20Dec2024 00:12:13.181] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
+[20Dec2024 00:12:13.183] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
+[20Dec2024 00:12:13.189] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
+[20Dec2024 00:12:13.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
+[20Dec2024 00:12:13.211] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
+[20Dec2024 00:12:13.212] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
+[20Dec2024 00:12:13.221] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
+[20Dec2024 00:12:13.221] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
+[20Dec2024 00:12:13.222] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
+[20Dec2024 00:12:13.228] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
+[20Dec2024 00:12:13.230] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
+[20Dec2024 00:12:13.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
+[20Dec2024 00:12:13.248] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
+[20Dec2024 00:12:13.249] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
+[20Dec2024 00:12:13.249] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
+[20Dec2024 00:12:13.249] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
+[20Dec2024 00:12:13.250] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
+[20Dec2024 00:12:13.252] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
+[20Dec2024 00:12:13.253] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
+[20Dec2024 00:12:13.254] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
+[20Dec2024 00:12:13.257] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
+[20Dec2024 00:12:13.257] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
+[20Dec2024 00:12:13.259] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
+[20Dec2024 00:12:13.268] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
+[20Dec2024 00:12:13.276] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
+[20Dec2024 00:12:13.291] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
+[20Dec2024 00:12:13.294] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
+[20Dec2024 00:12:13.294] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
+[20Dec2024 00:12:13.294] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
+[20Dec2024 00:12:13.295] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
+[20Dec2024 00:12:13.295] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
+[20Dec2024 00:12:13.308] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
+[20Dec2024 00:12:13.342] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
+[20Dec2024 00:12:13.360] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
+[20Dec2024 00:12:13.369] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
+[20Dec2024 00:12:13.371] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
+[20Dec2024 00:12:13.373] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
+[20Dec2024 00:12:13.426] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
+[20Dec2024 00:12:13.443] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
+[20Dec2024 00:12:13.444] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
+[20Dec2024 00:12:13.444] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
+[20Dec2024 00:12:13.446] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
+[20Dec2024 00:12:13.447] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
+[20Dec2024 00:12:13.448] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
+[20Dec2024 00:12:13.455] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
+[20Dec2024 00:12:13.456] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 163 modules.
+[20Dec2024 00:12:15.452] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[20Dec2024 00:12:15.502] [modloading-worker-0/INFO] [Bo's Player Companions/]: Thanks for using Bo's Player Companions (https://www.curseforge.com/minecraft/mc-mods/player-companions). I hope you enjoy the mod. :)
+[20Dec2024 00:12:15.504] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Menu Types ...
+[20Dec2024 00:12:15.510] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Entity Types ...
+[20Dec2024 00:12:15.529] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Items ...
+[20Dec2024 00:12:15.585] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Blocks ...
+[20Dec2024 00:12:15.590] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Sound Events ...
+[20Dec2024 00:12:15.608] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Biome Modifier Serializers ...
+[20Dec2024 00:12:15.672] [modloading-worker-0/INFO] [Bo's Player Companions/]: 👾 Register Player Companions Common config ...
+[20Dec2024 00:12:36.866] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded: 6425544
+[20Dec2024 00:12:36.867] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded (inc. passives + abilities): 3675411168
+[20Dec2024 00:12:36.938] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 4 errors found
+[20Dec2024 00:12:37.061] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID d1884682-c450-46b7-bf6f-f9dfb0968761
+[20Dec2024 00:12:37.063] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2024-12-20_00.12.37-fml.txt
+[20Dec2024 00:12:37.089] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 8248e72e-4d6e-4ab3-9e7e-fe9789d9d829
+[20Dec2024 00:12:37.126] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Oculus (oculus) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Entity Model Features (entity_model_features) has failed to load correctly
+§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,
+	Entity Texture Features (entity_texture_features) has failed to load correctly
+§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,
+	Cave Dust (cavedust) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.2.21.jar%23568!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.2.21-universal.jar%23572!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23567!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.21.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.21.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.21.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
